@@ -1,0 +1,10 @@
+Trang Home - Đã đăng nhập
+Tên phim: doctor stranger 2
+Tên rạp: CGV - CT Plaza
+Lịch chiếu: 14-04-2022 ~ 19:30
+Verify lịch sử đặt vé
+Tổng ghế khả dụng: 149
+Chọn random ghế: 149
+Đã chọn ghế: 149
+Tên phim: doctor stranger 2 | Tên rạp: CGV - CT Plaza | Lịch chiếu: 14/04/2022 -07:04
+Kết thúc testcase
