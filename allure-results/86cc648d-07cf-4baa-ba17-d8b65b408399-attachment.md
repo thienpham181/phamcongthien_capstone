@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Lịch Chiếu" [level=4] [ref=e12] [cursor=pointer]
+        - heading "Cụm Rạp" [level=4] [ref=e14] [cursor=pointer]
+        - heading "Tin Tức" [level=4] [ref=e16] [cursor=pointer]
+        - heading "Ứng Dụng" [level=4] [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - link "Đăng Nhập" [ref=e20] [cursor=pointer]:
+          - /url: /sign-in
+          - img [ref=e21]
+          - heading "Đăng Nhập" [level=3] [ref=e23]
+        - separator [ref=e24]
+        - link "Đăng Ký" [ref=e25] [cursor=pointer]:
+          - /url: /sign-up
+          - img [ref=e26]
+          - heading "Đăng Ký" [level=3] [ref=e28]
+  - generic [ref=e34]:
+    - generic [ref=e38]:
+      - heading "28.05.2022" [level=4] [ref=e40]
+      - heading "Nhà Bà Nữ" [level=1] [ref=e42]
+      - heading "120phút" [level=5] [ref=e44]
+      - generic [ref=e45]: Mua vé
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - progressbar [ref=e50]:
+          - img [ref=e51]
+        - progressbar [ref=e54]:
+          - img [ref=e55]
+        - generic [ref=e58]: "10"
+      - img "5 Stars":
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+    - generic [ref=e61]:
+      - tablist [ref=e65]:
+        - tab "BHD Star Cineplex" [active] [selected] [ref=e66] [cursor=pointer]:
+          - img "BHD Star Cineplex" [ref=e69]
+        - tab "cgv" [ref=e70] [cursor=pointer]:
+          - img "cgv" [ref=e73]
+        - tab "CineStar" [ref=e74] [cursor=pointer]:
+          - img "CineStar" [ref=e77]
+      - tabpanel [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - heading "BHD Star Cineplex - 3/2" [level=3] [ref=e84]
+            - link "25-05-2022 ~ 14:51" [ref=e87] [cursor=pointer]:
+              - /url: /purchase/45797
+              - paragraph [ref=e88]: 25-05-2022
+              - paragraph [ref=e89]: ~
+              - paragraph [ref=e90]: 14:51
+            - link "30-07-2022 ~ 11:09" [ref=e93] [cursor=pointer]:
+              - /url: /purchase/46108
+              - paragraph [ref=e94]: 30-07-2022
+              - paragraph [ref=e95]: ~
+              - paragraph [ref=e96]: 11:09
+            - link "03-11-2022 ~ 20:14" [ref=e99] [cursor=pointer]:
+              - /url: /purchase/46258
+              - paragraph [ref=e100]: 03-11-2022
+              - paragraph [ref=e101]: ~
+              - paragraph [ref=e102]: 20:14
+            - link "03-11-2022 ~ 20:14" [ref=e105] [cursor=pointer]:
+              - /url: /purchase/46259
+              - paragraph [ref=e106]: 03-11-2022
+              - paragraph [ref=e107]: ~
+              - paragraph [ref=e108]: 20:14
+          - generic [ref=e109]:
+            - heading "BHD Star Cineplex - Phạm Hùng" [level=3] [ref=e111]
+            - link "03-11-2022 ~ 20:14" [ref=e114] [cursor=pointer]:
+              - /url: /purchase/46260
+              - paragraph [ref=e115]: 03-11-2022
+              - paragraph [ref=e116]: ~
+              - paragraph [ref=e117]: 20:14
+          - generic [ref=e118]:
+            - heading "BHD Star Cineplex - Bitexco" [level=3] [ref=e120]
+            - link "15-02-2023 ~ 23:50" [ref=e123] [cursor=pointer]:
+              - /url: /purchase/46397
+              - paragraph [ref=e124]: 15-02-2023
+              - paragraph [ref=e125]: ~
+              - paragraph [ref=e126]: 23:50
+```

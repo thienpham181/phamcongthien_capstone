@@ -1,0 +1,3 @@
+Trang Home
+Verify Register Successfully
+After Each executed

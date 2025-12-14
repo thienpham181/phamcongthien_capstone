@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Lịch Chiếu" [level=4] [ref=e12] [cursor=pointer]
+        - heading "Cụm Rạp" [level=4] [ref=e14] [cursor=pointer]
+        - heading "Tin Tức" [level=4] [ref=e16] [cursor=pointer]
+        - heading "Ứng Dụng" [level=4] [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - link "Đăng Nhập" [ref=e20] [cursor=pointer]:
+          - /url: /sign-in
+          - img [ref=e21]
+          - heading "Đăng Nhập" [level=3] [ref=e23]
+        - separator [ref=e24]
+        - link "Đăng Ký" [ref=e25] [cursor=pointer]:
+          - /url: /sign-up
+          - img [ref=e26]
+          - heading "Đăng Ký" [level=3] [ref=e28]
+  - generic [ref=e34]:
+    - generic [ref=e38]:
+      - heading "21.12.2021" [level=4] [ref=e40]
+      - heading "gái già lắm chiêu" [level=1] [ref=e42]
+      - heading "120phút" [level=5] [ref=e44]
+      - generic [ref=e45]: Mua vé
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - progressbar [ref=e50]:
+          - img [ref=e51]
+        - progressbar [ref=e54]:
+          - img [ref=e55]
+        - generic [ref=e58]: "10"
+      - img "5 Stars":
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+    - generic [ref=e61]:
+      - tablist [ref=e65]:
+        - tab "cgv" [active] [selected] [ref=e66] [cursor=pointer]:
+          - img "cgv" [ref=e69]
+      - tabpanel [ref=e72]:
+        - generic [ref=e74]:
+          - heading "CGV - Vincom Gò Vấp" [level=3] [ref=e76]
+          - link "21-12-2021 ~ 16:00" [ref=e79] [cursor=pointer]:
+            - /url: /purchase/45243
+            - paragraph [ref=e80]: 21-12-2021
+            - paragraph [ref=e81]: ~
+            - paragraph [ref=e82]: 16:00
+```

@@ -1,0 +1,4 @@
+Trang Home - Đã đăng nhập
+Verify Nhấn đặt vé thành công
+🎯 Tổng số ghế có thể chọn: 0
+Kết thúc testcase

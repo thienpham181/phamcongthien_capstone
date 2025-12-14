@@ -1,0 +1,9 @@
+Trang Home - Đã đăng nhập
+Tên phim: The Gentlemen
+Tên rạp: GLX - Nguyễn Văn Quá
+Lịch chiếu: 30-09-2021 ~ 01:58
+Verify Nhấn đặt 1 vé thành công
+Tổng ghế khả dụng: 115
+Chọn random ghế: 155
+✅ Đã chọn ghế: 155
+Kết thúc testcase

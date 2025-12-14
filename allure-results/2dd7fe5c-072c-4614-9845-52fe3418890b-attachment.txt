@@ -1,0 +1,6 @@
+Trang Home - Chưa đăng nhập
+Verfy Chọn phim đặt vé
+Random Cụm rạp số: 0
+Random Chi nhánh rạp số: 5
+Random xuất chiếu số: 5
+After Each executed

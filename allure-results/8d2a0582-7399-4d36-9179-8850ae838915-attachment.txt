@@ -1,0 +1,11 @@
+Trang Home - Đã đăng nhập
+Tên phim: RỪNG SĂN NGƯỜI
+Tên rạp: CGV - Aeon Bình Tân
+Lịch chiếu: 21-09-2022 ~ 04:53
+Verify Nhấn đặt nhiều vé thành công
+Tổng ghế khả dụng: 157
+Chọn ghế: 25
+Chọn ghế: ĐẶT VÉ
+Đã chọn 2 ghế: [25, ĐẶT VÉ]
+Các ghế đã chọn: 25, ĐẶT VÉ
+Kết thúc testcase

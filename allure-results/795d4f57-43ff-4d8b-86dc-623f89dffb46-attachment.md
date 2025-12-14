@@ -1,0 +1,386 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Lịch Chiếu" [level=4] [ref=e12] [cursor=pointer]
+        - heading "Cụm Rạp" [level=4] [ref=e14] [cursor=pointer]
+        - heading "Tin Tức" [level=4] [ref=e16] [cursor=pointer]
+        - heading "Ứng Dụng" [level=4] [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - link "Đăng Nhập" [ref=e20] [cursor=pointer]:
+          - /url: /sign-in
+          - img [ref=e21]
+          - heading "Đăng Nhập" [level=3] [ref=e23]
+        - separator [ref=e24]
+        - link "Đăng Ký" [ref=e25] [cursor=pointer]:
+          - /url: /sign-up
+          - img [ref=e26]
+          - heading "Đăng Ký" [level=3] [ref=e28]
+  - generic [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - button "01" [ref=e35] [cursor=pointer]:
+          - generic [ref=e36]: "01"
+        - button "02" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: "02"
+        - button "03" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: "03"
+        - button "04" [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]: "04"
+        - button "05" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: "05"
+        - button "06" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: "06"
+        - button "07" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: "07"
+        - button "08" [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: "08"
+        - button "09" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: "09"
+        - button "10" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: "10"
+        - button "11" [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: "11"
+        - button "12" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: "12"
+        - button "13" [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: "13"
+        - button "14" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: "14"
+        - button "15" [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]: "15"
+        - button "16" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: "16"
+        - button "17" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: "17"
+        - button "18" [ref=e69] [cursor=pointer]:
+          - generic [ref=e70]: "18"
+        - button "19" [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]: "19"
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "23" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]: "23"
+        - button "24" [ref=e75] [cursor=pointer]:
+          - generic [ref=e76]: "24"
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "28" [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]: "28"
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "38" [ref=e79] [cursor=pointer]:
+          - generic [ref=e80]: "38"
+        - button "39" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]: "39"
+        - button "40" [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: "40"
+        - button "41" [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]: "41"
+        - button "42" [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]: "42"
+        - button "43" [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]: "43"
+        - button "44" [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]: "44"
+        - button "45" [ref=e93] [cursor=pointer]:
+          - generic [ref=e94]: "45"
+        - button "46" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: "46"
+        - button "47" [ref=e97] [cursor=pointer]:
+          - generic [ref=e98]: "47"
+        - button "48" [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: "48"
+        - button "49" [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: "49"
+        - button "50" [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]: "50"
+        - button "51" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]: "51"
+        - button "52" [ref=e107] [cursor=pointer]:
+          - generic [ref=e108]: "52"
+        - button "53" [ref=e109] [cursor=pointer]:
+          - generic [ref=e110]: "53"
+        - button "54" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]: "54"
+        - button "X" [disabled]:
+          - generic: X
+        - button "56" [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]: "56"
+        - button "57" [ref=e115] [cursor=pointer]:
+          - generic [ref=e116]: "57"
+        - button "58" [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]: "58"
+        - button "59" [ref=e119] [cursor=pointer]:
+          - generic [ref=e120]: "59"
+        - button "60" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]: "60"
+        - button "61" [ref=e123] [cursor=pointer]:
+          - generic [ref=e124]: "61"
+        - button "62" [ref=e125] [cursor=pointer]:
+          - generic [ref=e126]: "62"
+        - button "63" [ref=e127] [cursor=pointer]:
+          - generic [ref=e128]: "63"
+        - button "64" [ref=e129] [cursor=pointer]:
+          - generic [ref=e130]: "64"
+        - button "65" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]: "65"
+        - button "66" [ref=e133] [cursor=pointer]:
+          - generic [ref=e134]: "66"
+        - button "67" [ref=e135] [cursor=pointer]:
+          - generic [ref=e136]: "67"
+        - button "68" [ref=e137] [cursor=pointer]:
+          - generic [ref=e138]: "68"
+        - button "69" [ref=e139] [cursor=pointer]:
+          - generic [ref=e140]: "69"
+        - button "X" [disabled]:
+          - generic: X
+        - button "71" [ref=e141] [cursor=pointer]:
+          - generic [ref=e142]: "71"
+        - button "72" [ref=e143] [cursor=pointer]:
+          - generic [ref=e144]: "72"
+        - button "73" [ref=e145] [cursor=pointer]:
+          - generic [ref=e146]: "73"
+        - button "74" [ref=e147] [cursor=pointer]:
+          - generic [ref=e148]: "74"
+        - button "75" [ref=e149] [cursor=pointer]:
+          - generic [ref=e150]: "75"
+        - button "76" [ref=e151] [cursor=pointer]:
+          - generic [ref=e152]: "76"
+        - button "X" [disabled]:
+          - generic: X
+        - button "78" [ref=e153] [cursor=pointer]:
+          - generic [ref=e154]: "78"
+        - button "79" [ref=e155] [cursor=pointer]:
+          - generic [ref=e156]: "79"
+        - button "80" [ref=e157] [cursor=pointer]:
+          - generic [ref=e158]: "80"
+        - button "81" [ref=e159] [cursor=pointer]:
+          - generic [ref=e160]: "81"
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "84" [ref=e161] [cursor=pointer]:
+          - generic [ref=e162]: "84"
+        - button "85" [ref=e163] [cursor=pointer]:
+          - generic [ref=e164]: "85"
+        - button "86" [ref=e165] [cursor=pointer]:
+          - generic [ref=e166]: "86"
+        - button "87" [ref=e167] [cursor=pointer]:
+          - generic [ref=e168]: "87"
+        - button "X" [disabled]:
+          - generic: X
+        - button "X" [disabled]:
+          - generic: X
+        - button "90" [ref=e169] [cursor=pointer]:
+          - generic [ref=e170]: "90"
+        - button "X" [disabled]:
+          - generic: X
+        - button "92" [ref=e171] [cursor=pointer]:
+          - generic [ref=e172]: "92"
+        - button "93" [ref=e173] [cursor=pointer]:
+          - generic [ref=e174]: "93"
+        - button "94" [ref=e175] [cursor=pointer]:
+          - generic [ref=e176]: "94"
+        - button "95" [ref=e177] [cursor=pointer]:
+          - generic [ref=e178]: "95"
+        - button "96" [ref=e179] [cursor=pointer]:
+          - generic [ref=e180]: "96"
+        - button "97" [ref=e181] [cursor=pointer]:
+          - generic [ref=e182]: "97"
+        - button "98" [ref=e183] [cursor=pointer]:
+          - generic [ref=e184]: "98"
+        - button "99" [ref=e185] [cursor=pointer]:
+          - generic [ref=e186]: "99"
+        - button "100" [ref=e187] [cursor=pointer]:
+          - generic [ref=e188]: "100"
+        - button "101" [ref=e189] [cursor=pointer]:
+          - generic [ref=e190]: "101"
+        - button "102" [ref=e191] [cursor=pointer]:
+          - generic [ref=e192]: "102"
+        - button "103" [ref=e193] [cursor=pointer]:
+          - generic [ref=e194]: "103"
+        - button "104" [ref=e195] [cursor=pointer]:
+          - generic [ref=e196]: "104"
+        - button "105" [ref=e197] [cursor=pointer]:
+          - generic [ref=e198]: "105"
+        - button "106" [ref=e199] [cursor=pointer]:
+          - generic [ref=e200]: "106"
+        - button "107" [ref=e201] [cursor=pointer]:
+          - generic [ref=e202]: "107"
+        - button "108" [ref=e203] [cursor=pointer]:
+          - generic [ref=e204]: "108"
+        - button "109" [ref=e205] [cursor=pointer]:
+          - generic [ref=e206]: "109"
+        - button "110" [ref=e207] [cursor=pointer]:
+          - generic [ref=e208]: "110"
+        - button "111" [ref=e209] [cursor=pointer]:
+          - generic [ref=e210]: "111"
+        - button "112" [ref=e211] [cursor=pointer]:
+          - generic [ref=e212]: "112"
+        - button "113" [ref=e213] [cursor=pointer]:
+          - generic [ref=e214]: "113"
+        - button "114" [ref=e215] [cursor=pointer]:
+          - generic [ref=e216]: "114"
+        - button "115" [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: "115"
+        - button "116" [ref=e219] [cursor=pointer]:
+          - generic [ref=e220]: "116"
+        - button "117" [ref=e221] [cursor=pointer]:
+          - generic [ref=e222]: "117"
+        - button "118" [ref=e223] [cursor=pointer]:
+          - generic [ref=e224]: "118"
+        - button "119" [ref=e225] [cursor=pointer]:
+          - generic [ref=e226]: "119"
+        - button "120" [ref=e227] [cursor=pointer]:
+          - generic [ref=e228]: "120"
+        - button "121" [ref=e229] [cursor=pointer]:
+          - generic [ref=e230]: "121"
+        - button "122" [ref=e231] [cursor=pointer]:
+          - generic [ref=e232]: "122"
+        - button "123" [ref=e233] [cursor=pointer]:
+          - generic [ref=e234]: "123"
+        - button "124" [ref=e235] [cursor=pointer]:
+          - generic [ref=e236]: "124"
+        - button "125" [ref=e237] [cursor=pointer]:
+          - generic [ref=e238]: "125"
+        - button "126" [ref=e239] [cursor=pointer]:
+          - generic [ref=e240]: "126"
+        - button "127" [ref=e241] [cursor=pointer]:
+          - generic [ref=e242]: "127"
+        - button "128" [ref=e243] [cursor=pointer]:
+          - generic [ref=e244]: "128"
+        - button "129" [ref=e245] [cursor=pointer]:
+          - generic [ref=e246]: "129"
+        - button "130" [ref=e247] [cursor=pointer]:
+          - generic [ref=e248]: "130"
+        - button "131" [ref=e249] [cursor=pointer]:
+          - generic [ref=e250]: "131"
+        - button "132" [ref=e251] [cursor=pointer]:
+          - generic [ref=e252]: "132"
+        - button "133" [ref=e253] [cursor=pointer]:
+          - generic [ref=e254]: "133"
+        - button "134" [ref=e255] [cursor=pointer]:
+          - generic [ref=e256]: "134"
+        - button "135" [ref=e257] [cursor=pointer]:
+          - generic [ref=e258]: "135"
+        - button "136" [ref=e259] [cursor=pointer]:
+          - generic [ref=e260]: "136"
+        - button "137" [ref=e261] [cursor=pointer]:
+          - generic [ref=e262]: "137"
+        - button "138" [ref=e263] [cursor=pointer]:
+          - generic [ref=e264]: "138"
+        - button "139" [ref=e265] [cursor=pointer]:
+          - generic [ref=e266]: "139"
+        - button "140" [ref=e267] [cursor=pointer]:
+          - generic [ref=e268]: "140"
+        - button "141" [ref=e269] [cursor=pointer]:
+          - generic [ref=e270]: "141"
+        - button "142" [ref=e271] [cursor=pointer]:
+          - generic [ref=e272]: "142"
+        - button "143" [ref=e273] [cursor=pointer]:
+          - generic [ref=e274]: "143"
+        - button "144" [ref=e275] [cursor=pointer]:
+          - generic [ref=e276]: "144"
+        - button "145" [ref=e277] [cursor=pointer]:
+          - generic [ref=e278]: "145"
+        - button "146" [ref=e279] [cursor=pointer]:
+          - generic [ref=e280]: "146"
+        - button "147" [ref=e281] [cursor=pointer]:
+          - generic [ref=e282]: "147"
+        - button "148" [ref=e283] [cursor=pointer]:
+          - generic [ref=e284]: "148"
+        - button "149" [ref=e285] [cursor=pointer]:
+          - generic [ref=e286]: "149"
+        - button "150" [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]: "150"
+        - button "151" [ref=e289] [cursor=pointer]:
+          - generic [ref=e290]: "151"
+        - button "152" [ref=e291] [cursor=pointer]:
+          - generic [ref=e292]: "152"
+        - button "153" [ref=e293] [cursor=pointer]:
+          - generic [ref=e294]: "153"
+        - button "154" [ref=e295] [cursor=pointer]:
+          - generic [ref=e296]: "154"
+        - button "155" [ref=e297] [cursor=pointer]:
+          - generic [ref=e298]: "155"
+        - button "156" [ref=e299] [cursor=pointer]:
+          - generic [ref=e300]: "156"
+        - button "157" [ref=e301] [cursor=pointer]:
+          - generic [ref=e302]: "157"
+        - button "158" [ref=e303] [cursor=pointer]:
+          - generic [ref=e304]: "158"
+        - button "159" [ref=e305] [cursor=pointer]:
+          - generic [ref=e306]: "159"
+        - button "160" [ref=e307] [cursor=pointer]:
+          - generic [ref=e308]: "160"
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - button "X" [disabled]:
+            - generic: X
+          - paragraph [ref=e311]: Đã đặt
+        - generic [ref=e312]:
+          - button [disabled]
+          - paragraph [ref=e313]: Thường
+        - generic [ref=e314]:
+          - button [disabled]
+          - paragraph [ref=e315]: Vip
+    - generic [ref=e317]:
+      - paragraph [ref=e319]: 0VND
+      - separator [ref=e320]
+      - generic [ref=e321]:
+        - heading "Cụm Rạp:" [level=3] [ref=e322]
+        - heading "CGV - Golden Plaza" [level=3] [ref=e323]
+      - separator [ref=e324]
+      - generic [ref=e325]:
+        - heading "Địa chỉ:" [level=3] [ref=e326]
+        - heading "Tầng 4, Trung tâm thương mại Golden Plaza, 922 Nguyễn Trãi, P. 14, Q. 5" [level=3] [ref=e327]
+      - separator [ref=e328]
+      - generic [ref=e329]:
+        - heading "Rạp:" [level=3] [ref=e330]
+        - heading "Rạp 10" [level=3] [ref=e331]
+      - separator [ref=e332]
+      - generic [ref=e333]:
+        - heading "Ngày giờ chiếu:" [level=3] [ref=e334]
+        - heading "15/10/2021 -08:10" [level=3] [ref=e335]
+      - separator [ref=e336]
+      - generic [ref=e337]:
+        - heading "Tên Phim:" [level=3] [ref=e338]
+        - heading "AVATAR 2" [level=3] [ref=e339]
+      - separator [ref=e340]
+      - generic [ref=e341]:
+        - heading "Chọn:" [level=3] [ref=e342]
+        - heading [level=3]
+      - separator [ref=e343]
+      - button "ĐẶT VÉ" [ref=e344] [cursor=pointer]:
+        - generic [ref=e345]: ĐẶT VÉ
+```

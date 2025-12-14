@@ -1,0 +1,1122 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3] [cursor=pointer]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Lịch Chiếu" [level=4] [ref=e12]
+        - heading "Cụm Rạp" [level=4] [ref=e14]
+        - heading "Tin Tức" [level=4] [ref=e16]
+        - heading "Ứng Dụng" [level=4] [ref=e18]
+      - generic [ref=e19]:
+        - link "Avatar phamcongthien" [ref=e20]:
+          - /url: /account
+          - img "Avatar" [ref=e22]
+          - heading "phamcongthien" [level=3] [ref=e23]
+        - separator [ref=e24]
+        - link "Đăng xuất" [ref=e25]:
+          - /url: /
+          - img [ref=e26]
+          - heading "Đăng xuất" [level=3] [ref=e28]
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - img "Img alt" [ref=e35]
+      - button "Next" [ref=e37]:
+        - img [ref=e39]
+      - button "Previous" [ref=e42]:
+        - img [ref=e44]
+      - generic [ref=e46]:
+        - button [ref=e47]:
+          - img [ref=e49]
+        - button [ref=e51]:
+          - img [ref=e53]
+        - button [ref=e55]:
+          - img [ref=e57]
+    - generic [ref=e60]:
+      - generic [ref=e64]:
+        - combobox [ref=e65]:
+          - option "Phim" [disabled] [selected]
+          - option "The Gentlemen"
+          - option "Man of Steel"
+          - option "AVATAR 2"
+          - option "gái già lắm chiêu"
+          - 'option "SPIDER-MAN: NO WAY HOME"'
+          - option "doctor stranger 2"
+          - option "Nhà Bà Nữ"
+          - option "RỪNG SĂN NGƯỜI"
+          - option "Captain Marvel 2"
+          - option "iron man 4"
+          - option "Thor 6"
+          - option "CÔ GÁI TỪ QUÁ KHỨ"
+          - option "BỖNG DƯNG TRÚNG SỐ"
+          - option "John Cena WWE"
+          - option "HÀNH TRÌNH CỦA MOANA 2"
+          - option "Địa đạo"
+        - img
+      - generic [ref=e69]:
+        - combobox [ref=e70]:
+          - option "Rạp" [disabled] [selected]
+        - img
+      - generic [ref=e74]:
+        - combobox [ref=e75]:
+          - option "Ngày giờ chiếu" [disabled] [selected]
+        - img
+      - button "MUA VÉ NGAY" [ref=e79]:
+        - generic [ref=e80]: MUA VÉ NGAY
+  - generic [ref=e82]:
+    - generic [ref=e86]:
+      - link "C18 The Gentlemen Quý ông thế giới ngầm là một bộ phim phim hành động hài Anh-Mỹ năm 2019 biên soạn, đạo diễn và sản xuất bởi Guy Ritchie, từ một câu chuyện của Ivan Atkinson, Marn Davies, và Ritchie" [ref=e89]:
+        - /url: /detail/8898
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: C18
+            - text: The Gentlemen
+          - heading "Quý ông thế giới ngầm là một bộ phim phim hành động hài Anh-Mỹ năm 2019 biên soạn, đạo diễn và sản xuất bởi Guy Ritchie, từ một câu chuyện của Ivan Atkinson, Marn Davies, và Ritchie" [level=4] [ref=e97]
+      - link "C18 Man of Steel Bộ phim xoay quanh Clark Kent, trong Man Of Steel, chàng trai từ Krypton được gửi đến Trái Đất do hành tinh của anh bị tấn công và hủy diệt. Phim Man Of Steel kể từ lúc Clark Kent còn nhỏ cho đến lúc trưởng anh, anh được một cặp vợ chồng tốt bụng nhận nuôi và càng lớn Clark Kent càng nhận thức được sức mạnh sẵn có trong người mình. Cho đến một ngày kẻ thù ngày xưa đã tàn phá hành tinh của anh tìm đến để hủy diệt trái đất, anh phải đứng ra bảo vệ trái đất nơi mình đã lớn lên." [ref=e100]:
+        - /url: /detail/9387
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: C18
+            - text: Man of Steel
+          - heading "Bộ phim xoay quanh Clark Kent, trong Man Of Steel, chàng trai từ Krypton được gửi đến Trái Đất do hành tinh của anh bị tấn công và hủy diệt. Phim Man Of Steel kể từ lúc Clark Kent còn nhỏ cho đến lúc trưởng anh, anh được một cặp vợ chồng tốt bụng nhận nuôi và càng lớn Clark Kent càng nhận thức được sức mạnh sẵn có trong người mình. Cho đến một ngày kẻ thù ngày xưa đã tàn phá hành tinh của anh tìm đến để hủy diệt trái đất, anh phải đứng ra bảo vệ trái đất nơi mình đã lớn lên." [level=4] [ref=e108]
+      - link "C18 AVATAR 2 Khi tất cả những người thù địch trong Avatar – Pandora đều đã bị trục xuất khỏi Pandora. Hòa bình lại được trở lại nhưng những người thổ dân này lại bị đe dọa và bị thuộc địa hóa. Jake Sully (Sam Worrthington) đã trở thành một trong số bọn họ. Khi anh biết nhà mới của mình đã từng là nơi ở của những kẻ phải ra đi thì anh vẫn luôn cảnh giác. Các khu rừng nhiệt đới vẫn còn rất nhiều điều bất ngờ, ngay cả độ sâu của đại dương Pandora cũng là một nơi mà hoàn toàn không ai biết cả." [ref=e111]:
+        - /url: /detail/9390
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: C18
+            - text: AVATAR 2
+          - heading "Khi tất cả những người thù địch trong Avatar – Pandora đều đã bị trục xuất khỏi Pandora. Hòa bình lại được trở lại nhưng những người thổ dân này lại bị đe dọa và bị thuộc địa hóa. Jake Sully (Sam Worrthington) đã trở thành một trong số bọn họ. Khi anh biết nhà mới của mình đã từng là nơi ở của những kẻ phải ra đi thì anh vẫn luôn cảnh giác. Các khu rừng nhiệt đới vẫn còn rất nhiều điều bất ngờ, ngay cả độ sâu của đại dương Pandora cũng là một nơi mà hoàn toàn không ai biết cả." [level=4] [ref=e119]
+      - link "C18 gái già lắm chiêu Cuộc chiến “Chị - Em máu mủ tình thâm” chỉ vì hai chữ TÌNH- TIỀN của ba chị em gái Lý gia tại Biệt thự Bạch Trà Viên xứ Huế. Chính vì vòng xoáy “tình – tiền, được – mất” đã khiến họ từ chị em trở thành những kẻ đối đầu trong mối quan hệ tình thân. Câu chuyện bắt đầu vào đêm đấu giá phiên Xuân tại Bạch Trà Viên, Phượng bào tam vĩ - cổ vật 30 triệu đô, bảo vật của Lý gia bị mất cắp. Khiến ba chị em bắt đầu nghi kỵ lẫn nhau đồng thời phơi bày nhiều bí mật động trời tưởng chừng đã được che giấu suốt cả một đời." [ref=e122]:
+        - /url: /detail/9913
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: C18
+            - text: gái già lắm chiêu
+          - heading "Cuộc chiến “Chị - Em máu mủ tình thâm” chỉ vì hai chữ TÌNH- TIỀN của ba chị em gái Lý gia tại Biệt thự Bạch Trà Viên xứ Huế. Chính vì vòng xoáy “tình – tiền, được – mất” đã khiến họ từ chị em trở thành những kẻ đối đầu trong mối quan hệ tình thân. Câu chuyện bắt đầu vào đêm đấu giá phiên Xuân tại Bạch Trà Viên, Phượng bào tam vĩ - cổ vật 30 triệu đô, bảo vật của Lý gia bị mất cắp. Khiến ba chị em bắt đầu nghi kỵ lẫn nhau đồng thời phơi bày nhiều bí mật động trời tưởng chừng đã được che giấu suốt cả một đời." [level=4] [ref=e130]
+      - 'link "video-button C18 SPIDER-MAN: NO WAY HOME Bị lộ mặt và trở thành kẻ thù quốc dân, Peter Parker tìm đến Dr Strange để nhờ thực hiện câu thần chú, khiến mọi người quên đi việc cậu là Spider-Man. Thế nhưng, quá trình thực hiện xảy ra sự cố. Đa vũ trụ hình thành. Những kẻ thù ở các vũ trụ trước đây của Người Nhện lần lượt xuất hiện. Phải chống lại Green Goblin, Doc Ock, Electro, Sandman và Lizard…, làm thế nào Nhện nhí có thể bảo vệ được người thân và bạn bè?" [ref=e133]':
+        - /url: /detail/9954
+        - generic [ref=e134]:
+          - button "video-button" [ref=e137]:
+            - img "video-button" [ref=e139]
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: C18
+              - text: "SPIDER-MAN: NO WAY HOME"
+            - heading "Bị lộ mặt và trở thành kẻ thù quốc dân, Peter Parker tìm đến Dr Strange để nhờ thực hiện câu thần chú, khiến mọi người quên đi việc cậu là Spider-Man. Thế nhưng, quá trình thực hiện xảy ra sự cố. Đa vũ trụ hình thành. Những kẻ thù ở các vũ trụ trước đây của Người Nhện lần lượt xuất hiện. Phải chống lại Green Goblin, Doc Ock, Electro, Sandman và Lizard…, làm thế nào Nhện nhí có thể bảo vệ được người thân và bạn bè?" [level=4] [ref=e145]
+      - link "C18 doctor stranger 2 Phù thủy tối thượng trong Đa Vũ trụ hỗn loạn là một bộ phim siêu anh hùng năm 2022 của Mỹ dựa trên nhân vật Dr. Stephen Strange của Marvel Comics, do Marvel Studios sản xuất và được phân phối bởi Walt Disney Studios Motion Pictures" [ref=e148]:
+        - /url: /detail/10426
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]: C18
+            - text: doctor stranger 2
+          - heading "Phù thủy tối thượng trong Đa Vũ trụ hỗn loạn là một bộ phim siêu anh hùng năm 2022 của Mỹ dựa trên nhân vật Dr. Stephen Strange của Marvel Comics, do Marvel Studios sản xuất và được phân phối bởi Walt Disney Studios Motion Pictures" [level=4] [ref=e156]
+      - link "C18 Nhà Bà Nữ Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \"phá án\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \"chuyên án đặc biệt\" của ông đứng trước nguy cơ đổ bể." [ref=e159]:
+        - /url: /detail/10531
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: C18
+            - text: Nhà Bà Nữ
+          - heading "Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \"phá án\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \"chuyên án đặc biệt\" của ông đứng trước nguy cơ đổ bể." [level=4] [ref=e167]
+      - link "C18 RỪNG SĂN NGƯỜI Một biệt đội được phái vào rừng sâu để tìm tài liệu tuyệt mật và những người đồng đội mất tích. Nhưng mọi thứ không đơn giản như thế, họ đã tiến vào một vùng đất chất, nơi quỷ dữ thống trị và điều khiển mọi thứ. Đặc biệt, phim có sự góp mặt của Mickey Rourke, phản diện chính từ Iron Man 2." [ref=e170]:
+        - /url: /detail/10614
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: C18
+            - text: RỪNG SĂN NGƯỜI
+          - heading "Một biệt đội được phái vào rừng sâu để tìm tài liệu tuyệt mật và những người đồng đội mất tích. Nhưng mọi thứ không đơn giản như thế, họ đã tiến vào một vùng đất chất, nơi quỷ dữ thống trị và điều khiển mọi thứ. Đặc biệt, phim có sự góp mặt của Mickey Rourke, phản diện chính từ Iron Man 2." [level=4] [ref=e178]
+    - generic [ref=e179]:
+      - button [ref=e180]:
+        - img [ref=e182]
+      - button [ref=e184]:
+        - img [ref=e186]
+  - generic [ref=e189]:
+    - tablist [ref=e192]:
+      - tab "bhd-star-cineplex" [selected] [ref=e193]:
+        - img "bhd-star-cineplex" [ref=e196]
+      - tab "cgv" [ref=e197]:
+        - img "cgv" [ref=e200]
+      - tab "cinestar" [ref=e201]:
+        - img "cinestar" [ref=e204]
+      - tab "galaxy-cinema" [ref=e205]:
+        - img "galaxy-cinema" [ref=e208]
+      - tab "lotte-cinema" [ref=e209]:
+        - img "lotte-cinema" [ref=e212]
+      - tab "megags" [ref=e213]:
+        - img "megags" [ref=e216]
+    - tabpanel [ref=e218]:
+      - tablist [ref=e222]:
+        - tab "BHD Star Cineplex - Phạm Hùng L4-Satra Phạm Hùng, C6/27 Phạm Hùng, Bình Chánh [chi tiết]" [selected] [ref=e223]:
+          - generic [ref=e225]:
+            - heading "BHD Star Cineplex - Phạm Hùng" [level=4] [ref=e226]
+            - heading "L4-Satra Phạm Hùng, C6/27 Phạm Hùng, Bình Chánh" [level=6] [ref=e227]
+            - link "[chi tiết]" [ref=e228]:
+              - /url: /
+        - tab "BHD Star Cineplex - 3/2 L5-Vincom 3/2, 3C Đường 3/2, Q.10 [chi tiết]" [ref=e229]:
+          - generic [ref=e231]:
+            - heading "BHD Star Cineplex - 3/2" [level=4] [ref=e232]
+            - heading "L5-Vincom 3/2, 3C Đường 3/2, Q.10" [level=6] [ref=e233]
+            - link "[chi tiết]" [ref=e234]:
+              - /url: /
+        - tab "BHD Star Cineplex - Bitexco L3-Bitexco Icon 68, 2 Hải Triều, Q.1 [chi tiết]" [ref=e235]:
+          - generic [ref=e237]:
+            - heading "BHD Star Cineplex - Bitexco" [level=4] [ref=e238]
+            - heading "L3-Bitexco Icon 68, 2 Hải Triều, Q.1" [level=6] [ref=e239]
+            - link "[chi tiết]" [ref=e240]:
+              - /url: /
+        - tab "BHD Star Cineplex - Vincom Quang Trung B1-Vincom QT, 190 Quang Trung, Gò Vấp [chi tiết]" [ref=e241]:
+          - generic [ref=e243]:
+            - heading "BHD Star Cineplex - Vincom Quang Trung" [level=4] [ref=e244]
+            - heading "B1-Vincom QT, 190 Quang Trung, Gò Vấp" [level=6] [ref=e245]
+            - link "[chi tiết]" [ref=e246]:
+              - /url: /
+        - tab "BHD Star Cineplex - Vincom Lê Văn Việt L4-Vincom Plaza, 50 Lê Văn Việt, Q.9 [chi tiết]" [ref=e247]:
+          - generic [ref=e249]:
+            - heading "BHD Star Cineplex - Vincom Lê Văn Việt" [level=4] [ref=e250]
+            - heading "L4-Vincom Plaza, 50 Lê Văn Việt, Q.9" [level=6] [ref=e251]
+            - link "[chi tiết]" [ref=e252]:
+              - /url: /
+        - tab "BHD Star Cineplex - Vincom Thảo Điền L5-Megamall, 159 XL Hà Nội, Q.2 [chi tiết]" [ref=e253]:
+          - generic [ref=e255]:
+            - heading "BHD Star Cineplex - Vincom Thảo Điền" [level=4] [ref=e256]
+            - heading "L5-Megamall, 159 XL Hà Nội, Q.2" [level=6] [ref=e257]
+            - link "[chi tiết]" [ref=e258]:
+              - /url: /
+    - tabpanel [ref=e260]:
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - img "John Wick" [ref=e263]
+          - generic [ref=e264]:
+            - heading "C18 John Wick" [level=2] [ref=e265]:
+              - generic [ref=e266]: C18
+              - text: John Wick
+            - generic [ref=e267]:
+              - link "01-01-2019 ~ 10:10" [ref=e268]:
+                - /url: /purchase/16531
+                - generic [ref=e269]:
+                  - paragraph [ref=e270]: 01-01-2019
+                  - paragraph [ref=e271]: ~
+                  - heading "10:10" [level=3] [ref=e272]
+              - link "01-01-2019 ~ 12:10" [ref=e273]:
+                - /url: /purchase/16532
+                - generic [ref=e274]:
+                  - paragraph [ref=e275]: 01-01-2019
+                  - paragraph [ref=e276]: ~
+                  - heading "12:10" [level=3] [ref=e277]
+              - link "01-01-2019 ~ 14:10" [ref=e278]:
+                - /url: /purchase/16533
+                - generic [ref=e279]:
+                  - paragraph [ref=e280]: 01-01-2019
+                  - paragraph [ref=e281]: ~
+                  - heading "14:10" [level=3] [ref=e282]
+              - link "01-01-2019 ~ 16:10" [ref=e283]:
+                - /url: /purchase/16534
+                - generic [ref=e284]:
+                  - paragraph [ref=e285]: 01-01-2019
+                  - paragraph [ref=e286]: ~
+                  - heading "16:10" [level=3] [ref=e287]
+        - generic [ref=e288]:
+          - img "Siêu Thú Cuồng Nộ" [ref=e289]
+          - generic [ref=e290]:
+            - heading "C18 Siêu Thú Cuồng Nộ" [level=2] [ref=e291]:
+              - generic [ref=e292]: C18
+              - text: Siêu Thú Cuồng Nộ
+            - generic [ref=e293]:
+              - link "09-07-2021 ~ 08:00" [ref=e294]:
+                - /url: /purchase/43540
+                - generic [ref=e295]:
+                  - paragraph [ref=e296]: 09-07-2021
+                  - paragraph [ref=e297]: ~
+                  - heading "08:00" [level=3] [ref=e298]
+              - link "05-08-2021 ~ 18:26" [ref=e299]:
+                - /url: /purchase/43997
+                - generic [ref=e300]:
+                  - paragraph [ref=e301]: 05-08-2021
+                  - paragraph [ref=e302]: ~
+                  - heading "18:26" [level=3] [ref=e303]
+              - link "16-03-2021 ~ 14:00" [ref=e304]:
+                - /url: /purchase/42128
+                - generic [ref=e305]:
+                  - paragraph [ref=e306]: 16-03-2021
+                  - paragraph [ref=e307]: ~
+                  - heading "14:00" [level=3] [ref=e308]
+              - link "13-12-2021 ~ 01:00" [ref=e309]:
+                - /url: /purchase/42140
+                - generic [ref=e310]:
+                  - paragraph [ref=e311]: 13-12-2021
+                  - paragraph [ref=e312]: ~
+                  - heading "01:00" [level=3] [ref=e313]
+        - generic [ref=e314]:
+          - img "Cá mập siêu bạo chúa" [ref=e315]
+          - generic [ref=e316]:
+            - heading "C18 Cá mập siêu bạo chúa" [level=2] [ref=e317]:
+              - generic [ref=e318]: C18
+              - text: Cá mập siêu bạo chúa
+            - link "27-01-2021 ~ 12:25" [ref=e320]:
+              - /url: /purchase/41656
+              - generic [ref=e321]:
+                - paragraph [ref=e322]: 27-01-2021
+                - paragraph [ref=e323]: ~
+                - heading "12:25" [level=3] [ref=e324]
+        - generic [ref=e325]:
+          - img "Raya" [ref=e326]
+          - generic [ref=e327]:
+            - heading "C18 Raya" [level=2] [ref=e328]:
+              - generic [ref=e329]: C18
+              - text: Raya
+            - generic [ref=e330]:
+              - link "13-12-2000 ~ 20:00" [ref=e331]:
+                - /url: /purchase/42102
+                - generic [ref=e332]:
+                  - paragraph [ref=e333]: 13-12-2000
+                  - paragraph [ref=e334]: ~
+                  - heading "20:00" [level=3] [ref=e335]
+              - link "12-12-2000 ~ 20:00" [ref=e336]:
+                - /url: /purchase/42103
+                - generic [ref=e337]:
+                  - paragraph [ref=e338]: 12-12-2000
+                  - paragraph [ref=e339]: ~
+                  - heading "20:00" [level=3] [ref=e340]
+              - link "07-03-2022 ~ 22:30" [ref=e341]:
+                - /url: /purchase/45521
+                - generic [ref=e342]:
+                  - paragraph [ref=e343]: 07-03-2022
+                  - paragraph [ref=e344]: ~
+                  - heading "22:30" [level=3] [ref=e345]
+        - generic [ref=e346]:
+          - img "Jurassic World" [ref=e347]
+          - generic [ref=e348]:
+            - heading "C18 Jurassic World" [level=2] [ref=e349]:
+              - generic [ref=e350]: C18
+              - text: Jurassic World
+            - link "10-01-2019 ~ 10:40" [ref=e352]:
+              - /url: /purchase/43156
+              - generic [ref=e353]:
+                - paragraph [ref=e354]: 10-01-2019
+                - paragraph [ref=e355]: ~
+                - heading "10:40" [level=3] [ref=e356]
+        - generic [ref=e357]:
+          - img "Fantastic Four 4" [ref=e358]
+          - generic [ref=e359]:
+            - heading "C18 Fantastic Four 4" [level=2] [ref=e360]:
+              - generic [ref=e361]: C18
+              - text: Fantastic Four 4
+            - link "21-12-2021 ~ 12:00" [ref=e363]:
+              - /url: /purchase/43644
+              - generic [ref=e364]:
+                - paragraph [ref=e365]: 21-12-2021
+                - paragraph [ref=e366]: ~
+                - heading "12:00" [level=3] [ref=e367]
+        - generic [ref=e368]:
+          - 'img "Avengers: Infiniti" [ref=e369]'
+          - generic [ref=e370]:
+            - 'heading "C18 Avengers: Infiniti" [level=2] [ref=e371]':
+              - generic [ref=e372]: C18
+              - text: "Avengers: Infiniti"
+            - link "11-03-2022 ~ 13:30" [ref=e374]:
+              - /url: /purchase/43576
+              - generic [ref=e375]:
+                - paragraph [ref=e376]: 11-03-2022
+                - paragraph [ref=e377]: ~
+                - heading "13:30" [level=3] [ref=e378]
+        - generic [ref=e379]:
+          - img "Ghost Stories" [ref=e380]
+          - generic [ref=e381]:
+            - heading "C18 Ghost Stories" [level=2] [ref=e382]:
+              - generic [ref=e383]: C18
+              - text: Ghost Stories
+            - link "10-03-2022 ~ 13:30" [ref=e385]:
+              - /url: /purchase/43577
+              - generic [ref=e386]:
+                - paragraph [ref=e387]: 10-03-2022
+                - paragraph [ref=e388]: ~
+                - heading "13:30" [level=3] [ref=e389]
+        - generic [ref=e390]:
+          - img "ÁN MẠNG LIÊN HOÀN LÚC NỬA ĐÊM" [ref=e391]
+          - generic [ref=e392]:
+            - heading "C18 ÁN MẠNG LIÊN HOÀN LÚC NỬA ĐÊM" [level=2] [ref=e393]:
+              - generic [ref=e394]: C18
+              - text: ÁN MẠNG LIÊN HOÀN LÚC NỬA ĐÊM
+            - generic [ref=e395]:
+              - link "10-04-2020 ~ 08:00" [ref=e396]:
+                - /url: /purchase/40318
+                - generic [ref=e397]:
+                  - paragraph [ref=e398]: 10-04-2020
+                  - paragraph [ref=e399]: ~
+                  - heading "08:00" [level=3] [ref=e400]
+              - link "01-01-2019 ~ 15:45" [ref=e401]:
+                - /url: /purchase/40499
+                - generic [ref=e402]:
+                  - paragraph [ref=e403]: 01-01-2019
+                  - paragraph [ref=e404]: ~
+                  - heading "15:45" [level=3] [ref=e405]
+              - link "09-03-2022 ~ 13:30" [ref=e406]:
+                - /url: /purchase/43578
+                - generic [ref=e407]:
+                  - paragraph [ref=e408]: 09-03-2022
+                  - paragraph [ref=e409]: ~
+                  - heading "13:30" [level=3] [ref=e410]
+              - link "01-01-2019 ~ 10:00" [ref=e411]:
+                - /url: /purchase/43940
+                - generic [ref=e412]:
+                  - paragraph [ref=e413]: 01-01-2019
+                  - paragraph [ref=e414]: ~
+                  - heading "10:00" [level=3] [ref=e415]
+        - generic [ref=e416]:
+          - img "Goá Phụ Đen" [ref=e417]
+          - generic [ref=e418]:
+            - heading "C18 Goá Phụ Đen" [level=2] [ref=e419]:
+              - generic [ref=e420]: C18
+              - text: Goá Phụ Đen
+            - generic [ref=e421]:
+              - link "21-05-2020 ~ 01:05" [ref=e422]:
+                - /url: /purchase/40377
+                - generic [ref=e423]:
+                  - paragraph [ref=e424]: 21-05-2020
+                  - paragraph [ref=e425]: ~
+                  - heading "01:05" [level=3] [ref=e426]
+              - link "21-12-2021 ~ 12:00" [ref=e427]:
+                - /url: /purchase/43709
+                - generic [ref=e428]:
+                  - paragraph [ref=e429]: 21-12-2021
+                  - paragraph [ref=e430]: ~
+                  - heading "12:00" [level=3] [ref=e431]
+              - link "01-01-2019 ~ 21:00" [ref=e432]:
+                - /url: /purchase/43312
+                - generic [ref=e433]:
+                  - paragraph [ref=e434]: 01-01-2019
+                  - paragraph [ref=e435]: ~
+                  - heading "21:00" [level=3] [ref=e436]
+              - link "01-01-2019 ~ 21:50" [ref=e437]:
+                - /url: /purchase/43313
+                - generic [ref=e438]:
+                  - paragraph [ref=e439]: 01-01-2019
+                  - paragraph [ref=e440]: ~
+                  - heading "21:50" [level=3] [ref=e441]
+        - generic [ref=e442]:
+          - img "Bloodshot (C18)" [ref=e443]
+          - generic [ref=e444]:
+            - heading "C18 Bloodshot (C18)" [level=2] [ref=e445]:
+              - generic [ref=e446]: C18
+              - text: Bloodshot (C18)
+            - generic [ref=e447]:
+              - link "04-03-2022 ~ 13:30" [ref=e448]:
+                - /url: /purchase/43585
+                - generic [ref=e449]:
+                  - paragraph [ref=e450]: 04-03-2022
+                  - paragraph [ref=e451]: ~
+                  - heading "13:30" [level=3] [ref=e452]
+              - link "21-12-2021 ~ 12:00" [ref=e453]:
+                - /url: /purchase/43632
+                - generic [ref=e454]:
+                  - paragraph [ref=e455]: 21-12-2021
+                  - paragraph [ref=e456]: ~
+                  - heading "12:00" [level=3] [ref=e457]
+        - generic [ref=e458]:
+          - img "Nắng 3" [ref=e459]
+          - generic [ref=e460]:
+            - heading "C18 Nắng 3" [level=2] [ref=e461]:
+              - generic [ref=e462]: C18
+              - text: Nắng 3
+            - link "08-03-2022 ~ 13:30" [ref=e464]:
+              - /url: /purchase/43579
+              - generic [ref=e465]:
+                - paragraph [ref=e466]: 08-03-2022
+                - paragraph [ref=e467]: ~
+                - heading "13:30" [level=3] [ref=e468]
+        - generic [ref=e469]:
+          - img "Sát Thủ Vô Cùng Cực" [ref=e470]
+          - generic [ref=e471]:
+            - heading "C18 Sát Thủ Vô Cùng Cực" [level=2] [ref=e472]:
+              - generic [ref=e473]: C18
+              - text: Sát Thủ Vô Cùng Cực
+            - generic [ref=e474]:
+              - link "05-02-2022 ~ 13:30" [ref=e475]:
+                - /url: /purchase/43594
+                - generic [ref=e476]:
+                  - paragraph [ref=e477]: 05-02-2022
+                  - paragraph [ref=e478]: ~
+                  - heading "13:30" [level=3] [ref=e479]
+              - link "21-12-2021 ~ 12:00" [ref=e480]:
+                - /url: /purchase/43692
+                - generic [ref=e481]:
+                  - paragraph [ref=e482]: 21-12-2021
+                  - paragraph [ref=e483]: ~
+                  - heading "12:00" [level=3] [ref=e484]
+        - generic [ref=e485]:
+          - img "The King's Man" [ref=e486]
+          - generic [ref=e487]:
+            - heading "C18 The King's Man" [level=2] [ref=e488]:
+              - generic [ref=e489]: C18
+              - text: The King's Man
+            - generic [ref=e490]:
+              - link "01-02-2022 ~ 13:30" [ref=e491]:
+                - /url: /purchase/43590
+                - generic [ref=e492]:
+                  - paragraph [ref=e493]: 01-02-2022
+                  - paragraph [ref=e494]: ~
+                  - heading "13:30" [level=3] [ref=e495]
+              - link "21-12-2021 ~ 12:00" [ref=e496]:
+                - /url: /purchase/43668
+                - generic [ref=e497]:
+                  - paragraph [ref=e498]: 21-12-2021
+                  - paragraph [ref=e499]: ~
+                  - heading "12:00" [level=3] [ref=e500]
+        - generic [ref=e501]:
+          - img "Candyman" [ref=e502]
+          - generic [ref=e503]:
+            - heading "C18 Candyman" [level=2] [ref=e504]:
+              - generic [ref=e505]: C18
+              - text: Candyman
+            - generic [ref=e506]:
+              - link "05-03-2022 ~ 13:30" [ref=e507]:
+                - /url: /purchase/43584
+                - generic [ref=e508]:
+                  - paragraph [ref=e509]: 05-03-2022
+                  - paragraph [ref=e510]: ~
+                  - heading "13:30" [level=3] [ref=e511]
+              - link "21-12-2021 ~ 12:00" [ref=e512]:
+                - /url: /purchase/43626
+                - generic [ref=e513]:
+                  - paragraph [ref=e514]: 21-12-2021
+                  - paragraph [ref=e515]: ~
+                  - heading "12:00" [level=3] [ref=e516]
+        - generic [ref=e517]:
+          - img "Tenet" [ref=e518]
+          - generic [ref=e519]:
+            - heading "C18 Tenet" [level=2] [ref=e520]:
+              - generic [ref=e521]: C18
+              - text: Tenet
+            - generic [ref=e522]:
+              - link "03-03-2022 ~ 13:30" [ref=e523]:
+                - /url: /purchase/43586
+                - generic [ref=e524]:
+                  - paragraph [ref=e525]: 03-03-2022
+                  - paragraph [ref=e526]: ~
+                  - heading "13:30" [level=3] [ref=e527]
+              - link "21-12-2021 ~ 12:00" [ref=e528]:
+                - /url: /purchase/43638
+                - generic [ref=e529]:
+                  - paragraph [ref=e530]: 21-12-2021
+                  - paragraph [ref=e531]: ~
+                  - heading "12:00" [level=3] [ref=e532]
+        - generic [ref=e533]:
+          - img "Kẻ Trực Đêm II" [ref=e534]
+          - generic [ref=e535]:
+            - heading "C18 Kẻ Trực Đêm II" [level=2] [ref=e536]:
+              - generic [ref=e537]: C18
+              - text: Kẻ Trực Đêm II
+            - generic [ref=e538]:
+              - link "06-02-2022 ~ 13:30" [ref=e539]:
+                - /url: /purchase/43595
+                - generic [ref=e540]:
+                  - paragraph [ref=e541]: 06-02-2022
+                  - paragraph [ref=e542]: ~
+                  - heading "13:30" [level=3] [ref=e543]
+              - link "21-12-2021 ~ 12:00" [ref=e544]:
+                - /url: /purchase/43698
+                - generic [ref=e545]:
+                  - paragraph [ref=e546]: 21-12-2021
+                  - paragraph [ref=e547]: ~
+                  - heading "12:00" [level=3] [ref=e548]
+        - generic [ref=e549]:
+          - img "King Kong" [ref=e550]
+          - generic [ref=e551]:
+            - heading "C18 King Kong" [level=2] [ref=e552]:
+              - generic [ref=e553]: C18
+              - text: King Kong
+            - generic [ref=e554]:
+              - link "01-02-2022 ~ 13:30" [ref=e555]:
+                - /url: /purchase/43591
+                - generic [ref=e556]:
+                  - paragraph [ref=e557]: 01-02-2022
+                  - paragraph [ref=e558]: ~
+                  - heading "13:30" [level=3] [ref=e559]
+              - link "21-12-2021 ~ 12:00" [ref=e560]:
+                - /url: /purchase/43674
+                - generic [ref=e561]:
+                  - paragraph [ref=e562]: 21-12-2021
+                  - paragraph [ref=e563]: ~
+                  - heading "12:00" [level=3] [ref=e564]
+        - generic [ref=e565]:
+          - img "Fast And Furious 9" [ref=e566]
+          - generic [ref=e567]:
+            - heading "C18 Fast And Furious 9" [level=2] [ref=e568]:
+              - generic [ref=e569]: C18
+              - text: Fast And Furious 9
+            - generic [ref=e570]:
+              - link "01-01-2019 ~ 20:10" [ref=e571]:
+                - /url: /purchase/43311
+                - generic [ref=e572]:
+                  - paragraph [ref=e573]: 01-01-2019
+                  - paragraph [ref=e574]: ~
+                  - heading "20:10" [level=3] [ref=e575]
+              - link "01-01-2019 ~ 19:10" [ref=e576]:
+                - /url: /purchase/43316
+                - generic [ref=e577]:
+                  - paragraph [ref=e578]: 01-01-2019
+                  - paragraph [ref=e579]: ~
+                  - heading "19:10" [level=3] [ref=e580]
+              - link "01-01-2019 ~ 20:30" [ref=e581]:
+                - /url: /purchase/43317
+                - generic [ref=e582]:
+                  - paragraph [ref=e583]: 01-01-2019
+                  - paragraph [ref=e584]: ~
+                  - heading "20:30" [level=3] [ref=e585]
+              - link "01-01-2019 ~ 21:00" [ref=e586]:
+                - /url: /purchase/43318
+                - generic [ref=e587]:
+                  - paragraph [ref=e588]: 01-01-2019
+                  - paragraph [ref=e589]: ~
+                  - heading "21:00" [level=3] [ref=e590]
+        - generic [ref=e591]:
+          - img "Vagabond2" [ref=e592]
+          - generic [ref=e593]:
+            - heading "C18 Vagabond2" [level=2] [ref=e594]:
+              - generic [ref=e595]: C18
+              - text: Vagabond2
+            - generic [ref=e596]:
+              - link "05-02-2022 ~ 13:30" [ref=e597]:
+                - /url: /purchase/43593
+                - generic [ref=e598]:
+                  - paragraph [ref=e599]: 05-02-2022
+                  - paragraph [ref=e600]: ~
+                  - heading "13:30" [level=3] [ref=e601]
+              - link "21-12-2021 ~ 12:00" [ref=e602]:
+                - /url: /purchase/43686
+                - generic [ref=e603]:
+                  - paragraph [ref=e604]: 21-12-2021
+                  - paragraph [ref=e605]: ~
+                  - heading "12:00" [level=3] [ref=e606]
+        - generic [ref=e607]:
+          - img "Kẻ đào tẩu giấc mơ" [ref=e608]
+          - generic [ref=e609]:
+            - heading "C18 Kẻ đào tẩu giấc mơ" [level=2] [ref=e610]:
+              - generic [ref=e611]: C18
+              - text: Kẻ đào tẩu giấc mơ
+            - generic [ref=e612]:
+              - link "02-03-2022 ~ 13:30" [ref=e613]:
+                - /url: /purchase/43588
+                - generic [ref=e614]:
+                  - paragraph [ref=e615]: 02-03-2022
+                  - paragraph [ref=e616]: ~
+                  - heading "13:30" [level=3] [ref=e617]
+              - link "21-12-2021 ~ 12:00" [ref=e618]:
+                - /url: /purchase/43656
+                - generic [ref=e619]:
+                  - paragraph [ref=e620]: 21-12-2021
+                  - paragraph [ref=e621]: ~
+                  - heading "12:00" [level=3] [ref=e622]
+        - generic [ref=e623]:
+          - img "Sói 100%" [ref=e624]
+          - generic [ref=e625]:
+            - heading "C18 Sói 100%" [level=2] [ref=e626]:
+              - generic [ref=e627]: C18
+              - text: Sói 100%
+            - link "09-03-2022 ~ 13:30" [ref=e629]:
+              - /url: /purchase/43580
+              - generic [ref=e630]:
+                - paragraph [ref=e631]: 09-03-2022
+                - paragraph [ref=e632]: ~
+                - heading "13:30" [level=3] [ref=e633]
+        - generic [ref=e634]:
+          - img "Survive The Night" [ref=e635]
+          - generic [ref=e636]:
+            - heading "C18 Survive The Night" [level=2] [ref=e637]:
+              - generic [ref=e638]: C18
+              - text: Survive The Night
+            - generic [ref=e639]:
+              - link "01-03-2022 ~ 13:30" [ref=e640]:
+                - /url: /purchase/43589
+                - generic [ref=e641]:
+                  - paragraph [ref=e642]: 01-03-2022
+                  - paragraph [ref=e643]: ~
+                  - heading "13:30" [level=3] [ref=e644]
+              - link "21-12-2021 ~ 12:00" [ref=e645]:
+                - /url: /purchase/43662
+                - generic [ref=e646]:
+                  - paragraph [ref=e647]: 21-12-2021
+                  - paragraph [ref=e648]: ~
+                  - heading "12:00" [level=3] [ref=e649]
+        - generic [ref=e650]:
+          - img "Scoob!" [ref=e651]
+          - generic [ref=e652]:
+            - heading "C18 Scoob!" [level=2] [ref=e653]:
+              - generic [ref=e654]: C18
+              - text: Scoob!
+            - generic [ref=e655]:
+              - link "13-12-2000 ~ 20:00" [ref=e656]:
+                - /url: /purchase/42107
+                - generic [ref=e657]:
+                  - paragraph [ref=e658]: 13-12-2000
+                  - paragraph [ref=e659]: ~
+                  - heading "20:00" [level=3] [ref=e660]
+              - link "21-12-2021 ~ 12:00" [ref=e661]:
+                - /url: /purchase/43609
+                - generic [ref=e662]:
+                  - paragraph [ref=e663]: 21-12-2021
+                  - paragraph [ref=e664]: ~
+                  - heading "12:00" [level=3] [ref=e665]
+              - link "21-12-2021 ~ 09:00" [ref=e666]:
+                - /url: /purchase/43614
+                - generic [ref=e667]:
+                  - paragraph [ref=e668]: 21-12-2021
+                  - paragraph [ref=e669]: ~
+                  - heading "09:00" [level=3] [ref=e670]
+        - generic [ref=e671]:
+          - img "Tiếng Gọi Nơi Hoang Dã" [ref=e672]
+          - generic [ref=e673]:
+            - heading "C18 Tiếng Gọi Nơi Hoang Dã" [level=2] [ref=e674]:
+              - generic [ref=e675]: C18
+              - text: Tiếng Gọi Nơi Hoang Dã
+            - generic [ref=e676]:
+              - link "02-11-2020 ~ 15:25" [ref=e677]:
+                - /url: /purchase/42272
+                - generic [ref=e678]:
+                  - paragraph [ref=e679]: 02-11-2020
+                  - paragraph [ref=e680]: ~
+                  - heading "15:25" [level=3] [ref=e681]
+              - link "02-03-2022 ~ 13:30" [ref=e682]:
+                - /url: /purchase/43587
+                - generic [ref=e683]:
+                  - paragraph [ref=e684]: 02-03-2022
+                  - paragraph [ref=e685]: ~
+                  - heading "13:30" [level=3] [ref=e686]
+              - link "21-12-2021 ~ 12:00" [ref=e687]:
+                - /url: /purchase/43650
+                - generic [ref=e688]:
+                  - paragraph [ref=e689]: 21-12-2021
+                  - paragraph [ref=e690]: ~
+                  - heading "12:00" [level=3] [ref=e691]
+        - generic [ref=e692]:
+          - img "Downtown Abbeyjhjj" [ref=e693]
+          - generic [ref=e694]:
+            - heading "C18 Downtown Abbeyjhjj" [level=2] [ref=e695]:
+              - generic [ref=e696]: C18
+              - text: Downtown Abbeyjhjj
+            - generic [ref=e697]:
+              - link "02-08-2020 ~ 12:50" [ref=e698]:
+                - /url: /purchase/40412
+                - generic [ref=e699]:
+                  - paragraph [ref=e700]: 02-08-2020
+                  - paragraph [ref=e701]: ~
+                  - heading "12:50" [level=3] [ref=e702]
+              - link "17-08-2020 ~ 07:15" [ref=e703]:
+                - /url: /purchase/40426
+                - generic [ref=e704]:
+                  - paragraph [ref=e705]: 17-08-2020
+                  - paragraph [ref=e706]: ~
+                  - heading "07:15" [level=3] [ref=e707]
+              - link "17-08-2020 ~ 12:30" [ref=e708]:
+                - /url: /purchase/40427
+                - generic [ref=e709]:
+                  - paragraph [ref=e710]: 17-08-2020
+                  - paragraph [ref=e711]: ~
+                  - heading "12:30" [level=3] [ref=e712]
+              - link "17-08-2020 ~ 12:30" [ref=e713]:
+                - /url: /purchase/40428
+                - generic [ref=e714]:
+                  - paragraph [ref=e715]: 17-08-2020
+                  - paragraph [ref=e716]: ~
+                  - heading "12:30" [level=3] [ref=e717]
+        - generic [ref=e718]:
+          - img "Southpaw" [ref=e719]
+          - generic [ref=e720]:
+            - heading "C18 Southpaw" [level=2] [ref=e721]:
+              - generic [ref=e722]: C18
+              - text: Southpaw
+            - link "07-03-2022 ~ 13:30" [ref=e724]:
+              - /url: /purchase/43582
+              - generic [ref=e725]:
+                - paragraph [ref=e726]: 07-03-2022
+                - paragraph [ref=e727]: ~
+                - heading "13:30" [level=3] [ref=e728]
+        - generic [ref=e729]:
+          - img "Bad boy (2022)" [ref=e730]
+          - generic [ref=e731]:
+            - heading "C18 Bad boy (2022)" [level=2] [ref=e732]:
+              - generic [ref=e733]: C18
+              - text: Bad boy (2022)
+            - link "06-08-2020 ~ 09:10" [ref=e735]:
+              - /url: /purchase/40424
+              - generic [ref=e736]:
+                - paragraph [ref=e737]: 06-08-2020
+                - paragraph [ref=e738]: ~
+                - heading "09:10" [level=3] [ref=e739]
+        - generic [ref=e740]:
+          - img "Dự Án Siêu Năng Lực (2021)" [ref=e741]
+          - generic [ref=e742]:
+            - heading "C18 Dự Án Siêu Năng Lực (2021)" [level=2] [ref=e743]:
+              - generic [ref=e744]: C18
+              - text: Dự Án Siêu Năng Lực (2021)
+            - generic [ref=e745]:
+              - link "05-08-2020 ~ 10:15" [ref=e746]:
+                - /url: /purchase/40439
+                - generic [ref=e747]:
+                  - paragraph [ref=e748]: 05-08-2020
+                  - paragraph [ref=e749]: ~
+                  - heading "10:15" [level=3] [ref=e750]
+              - link "06-03-2022 ~ 13:30" [ref=e751]:
+                - /url: /purchase/43583
+                - generic [ref=e752]:
+                  - paragraph [ref=e753]: 06-03-2022
+                  - paragraph [ref=e754]: ~
+                  - heading "13:30" [level=3] [ref=e755]
+              - link "21-12-2021 ~ 12:00" [ref=e756]:
+                - /url: /purchase/43620
+                - generic [ref=e757]:
+                  - paragraph [ref=e758]: 21-12-2021
+                  - paragraph [ref=e759]: ~
+                  - heading "12:00" [level=3] [ref=e760]
+        - generic [ref=e761]:
+          - img "Holly Slept Over" [ref=e762]
+          - generic [ref=e763]:
+            - heading "C18 Holly Slept Over" [level=2] [ref=e764]:
+              - generic [ref=e765]: C18
+              - text: Holly Slept Over
+            - link "15-10-2020 ~ 20:00" [ref=e767]:
+              - /url: /purchase/40551
+              - generic [ref=e768]:
+                - paragraph [ref=e769]: 15-10-2020
+                - paragraph [ref=e770]: ~
+                - heading "20:00" [level=3] [ref=e771]
+        - generic [ref=e772]:
+          - 'img "Ối Trời Ơi: Chuyến Phiêu Lưu Đầy ''Thú'' Vị" [ref=e773]'
+          - generic [ref=e774]:
+            - 'heading "C18 Ối Trời Ơi: Chuyến Phiêu Lưu Đầy ''Thú'' Vị" [level=2] [ref=e775]':
+              - generic [ref=e776]: C18
+              - text: "Ối Trời Ơi: Chuyến Phiêu Lưu Đầy 'Thú' Vị"
+            - link "14-10-2020 ~ 19:00" [ref=e778]:
+              - /url: /purchase/43075
+              - generic [ref=e779]:
+                - paragraph [ref=e780]: 14-10-2020
+                - paragraph [ref=e781]: ~
+                - heading "19:00" [level=3] [ref=e782]
+        - generic [ref=e783]:
+          - 'img "Lật Mặt 5: 48H" [ref=e784]'
+          - generic [ref=e785]:
+            - 'heading "C18 Lật Mặt 5: 48H" [level=2] [ref=e786]':
+              - generic [ref=e787]: C18
+              - text: "Lật Mặt 5: 48H"
+            - link "26-08-2021 ~ 15:57" [ref=e789]:
+              - /url: /purchase/44186
+              - generic [ref=e790]:
+                - paragraph [ref=e791]: 26-08-2021
+                - paragraph [ref=e792]: ~
+                - heading "15:57" [level=3] [ref=e793]
+        - generic [ref=e794]:
+          - img "Breaking Bad" [ref=e795]
+          - generic [ref=e796]:
+            - heading "C18 Breaking Bad" [level=2] [ref=e797]:
+              - generic [ref=e798]: C18
+              - text: Breaking Bad
+            - link "29-09-2021 ~ 12:59" [ref=e800]:
+              - /url: /purchase/44907
+              - generic [ref=e801]:
+                - paragraph [ref=e802]: 29-09-2021
+                - paragraph [ref=e803]: ~
+                - heading "12:59" [level=3] [ref=e804]
+        - generic [ref=e805]:
+          - img "Hannibal Lector" [ref=e806]
+          - generic [ref=e807]:
+            - heading "C18 Hannibal Lector" [level=2] [ref=e808]:
+              - generic [ref=e809]: C18
+              - text: Hannibal Lector
+            - link "29-09-2021 ~ 12:57" [ref=e811]:
+              - /url: /purchase/44901
+              - generic [ref=e812]:
+                - paragraph [ref=e813]: 29-09-2021
+                - paragraph [ref=e814]: ~
+                - heading "12:57" [level=3] [ref=e815]
+        - generic [ref=e816]:
+          - img "Lucifer" [ref=e817]
+          - generic [ref=e818]:
+            - heading "C18 Lucifer" [level=2] [ref=e819]:
+              - generic [ref=e820]: C18
+              - text: Lucifer
+            - link "29-09-2021 ~ 11:30" [ref=e822]:
+              - /url: /purchase/44892
+              - generic [ref=e823]:
+                - paragraph [ref=e824]: 29-09-2021
+                - paragraph [ref=e825]: ~
+                - heading "11:30" [level=3] [ref=e826]
+        - generic [ref=e827]:
+          - img "World War Z" [ref=e828]
+          - generic [ref=e829]:
+            - heading "C18 World War Z" [level=2] [ref=e830]:
+              - generic [ref=e831]: C18
+              - text: World War Z
+            - link "29-09-2021 ~ 01:10" [ref=e833]:
+              - /url: /purchase/44917
+              - generic [ref=e834]:
+                - paragraph [ref=e835]: 29-09-2021
+                - paragraph [ref=e836]: ~
+                - heading "01:10" [level=3] [ref=e837]
+        - generic [ref=e838]:
+          - img "Game of Thrones" [ref=e839]
+          - generic [ref=e840]:
+            - heading "C18 Game of Thrones" [level=2] [ref=e841]:
+              - generic [ref=e842]: C18
+              - text: Game of Thrones
+            - link "29-09-2021 ~ 01:11" [ref=e844]:
+              - /url: /purchase/44920
+              - generic [ref=e845]:
+                - paragraph [ref=e846]: 29-09-2021
+                - paragraph [ref=e847]: ~
+                - heading "01:11" [level=3] [ref=e848]
+        - generic [ref=e849]:
+          - img "Sherlock Holmes" [ref=e850]
+          - generic [ref=e851]:
+            - heading "C18 Sherlock Holmes" [level=2] [ref=e852]:
+              - generic [ref=e853]: C18
+              - text: Sherlock Holmes
+            - link "29-09-2021 ~ 01:16" [ref=e855]:
+              - /url: /purchase/44927
+              - generic [ref=e856]:
+                - paragraph [ref=e857]: 29-09-2021
+                - paragraph [ref=e858]: ~
+                - heading "01:16" [level=3] [ref=e859]
+        - generic [ref=e860]:
+          - img "Aquamannnnnn" [ref=e861]
+          - generic [ref=e862]:
+            - heading "C18 Aquamannnnnn" [level=2] [ref=e863]:
+              - generic [ref=e864]: C18
+              - text: Aquamannnnnn
+            - generic [ref=e865]:
+              - link "01-10-2021 ~ 08:46" [ref=e866]:
+                - /url: /purchase/45057
+                - generic [ref=e867]:
+                  - paragraph [ref=e868]: 01-10-2021
+                  - paragraph [ref=e869]: ~
+                  - heading "08:46" [level=3] [ref=e870]
+              - link "17-10-2021 ~ 08:47" [ref=e871]:
+                - /url: /purchase/45058
+                - generic [ref=e872]:
+                  - paragraph [ref=e873]: 17-10-2021
+                  - paragraph [ref=e874]: ~
+                  - heading "08:47" [level=3] [ref=e875]
+        - generic [ref=e876]:
+          - img "AVATAR 2" [ref=e877]
+          - generic [ref=e878]:
+            - heading "C18 AVATAR 2" [level=2] [ref=e879]:
+              - generic [ref=e880]: C18
+              - text: AVATAR 2
+            - generic [ref=e881]:
+              - link "17-10-2021 ~ 08:43" [ref=e882]:
+                - /url: /purchase/45056
+                - generic [ref=e883]:
+                  - paragraph [ref=e884]: 17-10-2021
+                  - paragraph [ref=e885]: ~
+                  - heading "08:43" [level=3] [ref=e886]
+              - link "18-10-2021 ~ 01:00" [ref=e887]:
+                - /url: /purchase/45061
+                - generic [ref=e888]:
+                  - paragraph [ref=e889]: 18-10-2021
+                  - paragraph [ref=e890]: ~
+                  - heading "01:00" [level=3] [ref=e891]
+        - generic [ref=e892]:
+          - img "MORBIUS" [ref=e893]
+          - generic [ref=e894]:
+            - heading "C18 MORBIUS" [level=2] [ref=e895]:
+              - generic [ref=e896]: C18
+              - text: MORBIUS
+            - link "29-03-2022 ~ 09:03" [ref=e898]:
+              - /url: /purchase/45578
+              - generic [ref=e899]:
+                - paragraph [ref=e900]: 29-03-2022
+                - paragraph [ref=e901]: ~
+                - heading "09:03" [level=3] [ref=e902]
+        - generic [ref=e903]:
+          - img "ÁN MẠNG LIÊN HOÀN LÚC NỬA ĐÊM" [ref=e904]
+          - generic [ref=e905]:
+            - heading "C18 ÁN MẠNG LIÊN HOÀN LÚC NỬA ĐÊM" [level=2] [ref=e906]:
+              - generic [ref=e907]: C18
+              - text: ÁN MẠNG LIÊN HOÀN LÚC NỬA ĐÊM
+            - link "29-04-2022 ~ 16:35" [ref=e909]:
+              - /url: /purchase/45662
+              - generic [ref=e910]:
+                - paragraph [ref=e911]: 29-04-2022
+                - paragraph [ref=e912]: ~
+                - heading "16:35" [level=3] [ref=e913]
+        - generic [ref=e914]:
+          - img "Terrifier 3" [ref=e915]
+          - generic [ref=e916]:
+            - heading "C18 Terrifier 3" [level=2] [ref=e917]:
+              - generic [ref=e918]: C18
+              - text: Terrifier 3
+            - generic [ref=e919]:
+              - link "29-09-2022 ~ 02:00" [ref=e920]:
+                - /url: /purchase/46085
+                - generic [ref=e921]:
+                  - paragraph [ref=e922]: 29-09-2022
+                  - paragraph [ref=e923]: ~
+                  - heading "02:00" [level=3] [ref=e924]
+              - link "28-10-2022 ~ 16:02" [ref=e925]:
+                - /url: /purchase/46229
+                - generic [ref=e926]:
+                  - paragraph [ref=e927]: 28-10-2022
+                  - paragraph [ref=e928]: ~
+                  - heading "16:02" [level=3] [ref=e929]
+        - generic [ref=e930]:
+          - img "Nhà Bà Nữ" [ref=e931]
+          - generic [ref=e932]:
+            - heading "C18 Nhà Bà Nữ" [level=2] [ref=e933]:
+              - generic [ref=e934]: C18
+              - text: Nhà Bà Nữ
+            - link "03-11-2022 ~ 20:14" [ref=e936]:
+              - /url: /purchase/46260
+              - generic [ref=e937]:
+                - paragraph [ref=e938]: 03-11-2022
+                - paragraph [ref=e939]: ~
+                - heading "20:14" [level=3] [ref=e940]
+        - generic [ref=e941]:
+          - img "black Adam" [ref=e942]
+          - generic [ref=e943]:
+            - heading "C18 black Adam" [level=2] [ref=e944]:
+              - generic [ref=e945]: C18
+              - text: black Adam
+            - link "25-10-2022 ~ 21:49" [ref=e947]:
+              - /url: /purchase/46214
+              - generic [ref=e948]:
+                - paragraph [ref=e949]: 25-10-2022
+                - paragraph [ref=e950]: ~
+                - heading "21:49" [level=3] [ref=e951]
+        - generic [ref=e952]:
+          - img "BỖNG DƯNG TRÚNG SỐ" [ref=e953]
+          - generic [ref=e954]:
+            - heading "C18 BỖNG DƯNG TRÚNG SỐ" [level=2] [ref=e955]:
+              - generic [ref=e956]: C18
+              - text: BỖNG DƯNG TRÚNG SỐ
+            - link "29-03-2023 ~ 00:00" [ref=e958]:
+              - /url: /purchase/46421
+              - generic [ref=e959]:
+                - paragraph [ref=e960]: 29-03-2023
+                - paragraph [ref=e961]: ~
+                - heading "00:00" [level=3] [ref=e962]
+  - generic [ref=e963]:
+    - tablist [ref=e966]:
+      - tab "Điện Ảnh 24h" [selected] [ref=e967]:
+        - generic [ref=e968]: Điện Ảnh 24h
+      - tab "Review" [ref=e969]:
+        - generic [ref=e970]: Review
+      - tab "Khuyến mãi" [ref=e971]:
+        - generic [ref=e972]: Khuyến mãi
+    - tabpanel
+    - button "XEM THÊM" [ref=e975]:
+      - generic [ref=e976]: XEM THÊM
+  - generic [ref=e979]:
+    - generic [ref=e980]:
+      - paragraph [ref=e981]: Ứng dụng tiện lợi dành cho
+      - paragraph [ref=e982]: người yêu điện ảnh
+      - paragraph [ref=e983]: Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp và đổi quà hấp dẫn.
+      - link "App miễn phí - Tải về ngay!" [ref=e984]:
+        - /url: https://apps.apple.com/us/app/123phim-mua-ve-lien-tay-chon/id615186197
+        - generic [ref=e985]: App miễn phí - Tải về ngay!
+      - paragraph [ref=e986]:
+        - text: TIX có hai phiên bản
+        - link "IOS" [ref=e987]:
+          - /url: https://apps.apple.com/us/app/123phim-mua-ve-lien-tay-chon/id615186197
+        - text: "&"
+        - link "Android" [ref=e988]:
+          - /url: https://play.google.com/store/apps/details?id=vn.com.vng.phim123
+    - generic [ref=e989]:
+      - img "phone" [ref=e990]
+      - img "slider" [ref=e995]
+  - contentinfo [ref=e996]:
+    - generic [ref=e997]:
+      - generic [ref=e998]:
+        - paragraph [ref=e1000]:
+          - heading "TIX" [level=6] [ref=e1001]
+          - generic [ref=e1002]:
+            - generic [ref=e1003]: FAQ
+            - generic [ref=e1004]: Thỏa thuận sử dụng
+            - generic [ref=e1005]: Brand Guidelines
+            - generic [ref=e1006]: Chính sách bảo mật
+        - paragraph [ref=e1008]:
+          - heading "ĐỐI TÁC" [level=6] [ref=e1009]
+          - generic [ref=e1010]:
+            - link "cgvlogo" [ref=e1012]:
+              - /url: https://www.cgv.vn/
+              - img "cgvlogo" [ref=e1013]
+            - link "bhdlogo" [ref=e1015]:
+              - /url: https://www.bhdstar.vn/
+              - img "bhdlogo" [ref=e1016]
+            - link "galaxylogo" [ref=e1018]:
+              - /url: https://www.galaxycine.vn/
+              - img "galaxylogo" [ref=e1019]
+            - link "starlogo" [ref=e1021]:
+              - /url: http://cinestar.com.vn/
+              - img "starlogo" [ref=e1022]
+            - link "lottelogo" [ref=e1024]:
+              - /url: http://lottecinemavn.com/LCHS/index.aspx
+              - img "lottelogo" [ref=e1025]
+            - link "megalogo" [ref=e1027]:
+              - /url: https://www.megagscinemas.vn/
+              - img "megalogo" [ref=e1028]
+            - link "betalogo" [ref=e1030]:
+              - /url: https://www.betacinemas.vn/home.htm
+              - img "betalogo" [ref=e1031]
+            - link "ddclogo" [ref=e1033]:
+              - /url: http://ddcinema.vn/
+              - img "ddclogo" [ref=e1034]
+            - link "touchlogo" [ref=e1036]:
+              - /url: https://touchcinema.com/
+              - img "touchlogo" [ref=e1037]
+            - link "cinemaxlogo" [ref=e1039]:
+              - /url: https://cinemaxvn.com/
+              - img "cinemaxlogo" [ref=e1040]
+            - link "starlightlogo" [ref=e1042]:
+              - /url: https://starlight.vn/
+              - img "starlightlogo" [ref=e1043]
+            - link "dcinelogo" [ref=e1045]:
+              - /url: https://www.dcine.vn/
+              - img "dcinelogo" [ref=e1046]
+            - link "zalologo" [ref=e1048]:
+              - /url: https://zalopay.vn/
+              - img "zalologo" [ref=e1049]
+            - link "payoologo" [ref=e1051]:
+              - /url: https://www.payoo.vn/
+              - img "payoologo" [ref=e1052]
+            - link "vietcombanklogo" [ref=e1054]:
+              - /url: https://portal.vietcombank.com.vn/Pages/Home.aspx
+              - img "vietcombanklogo" [ref=e1055]
+            - link "agribanklogo" [ref=e1057]:
+              - /url: https://www.payoo.vn/
+              - img "agribanklogo" [ref=e1058]
+            - link "viettinbanklogo" [ref=e1060]:
+              - /url: https://www.vietinbank.vn/web/home/vn/index.html
+              - img "viettinbanklogo" [ref=e1061]
+            - link "ivblogo" [ref=e1063]:
+              - /url: https://www.indovinabank.com.vn/
+              - img "ivblogo" [ref=e1064]
+            - link "bachamlogo" [ref=e1066]:
+              - /url: https://webv3.123go.vn/
+              - img "bachamlogo" [ref=e1067]
+            - link "labanlogo" [ref=e1069]:
+              - /url: https://laban.vn/
+              - img "labanlogo" [ref=e1070]
+        - generic [ref=e1072]:
+          - paragraph [ref=e1074]:
+            - heading "MOBILE APP" [level=6] [ref=e1075]
+            - generic [ref=e1076]:
+              - link [ref=e1078]:
+                - /url: https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197
+              - link [ref=e1080]:
+                - /url: https://play.google.com/store/apps/details?id=vn.com.vng.phim123
+          - paragraph [ref=e1082]:
+            - heading "SOCIAL" [level=6] [ref=e1083]
+            - generic [ref=e1084]:
+              - link [ref=e1086]:
+                - /url: https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197
+              - link [ref=e1088]:
+                - /url: https://play.google.com/store/apps/details?id=vn.com.vng.phim123
+      - separator [ref=e1089]
+      - paragraph [ref=e1090]:
+        - generic [ref=e1093]:
+          - heading "TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION" [level=6] [ref=e1094]
+          - 'heading "Địa chỉ: Z06 Đường số 13, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh, Việt Nam." [level=6] [ref=e1095]'
+          - 'heading "Giấy chứng nhận đăng ký kinh doanh số: 0101659783," [level=6] [ref=e1096]'
+          - heading "đăng ký thay đổi lần thứ 30, ngày 22 tháng 01 năm 2020 do Sở kế hoạch và đầu tư Thành phố Hồ Chí Minh cấp." [level=6] [ref=e1097]
+          - 'heading "Số Điện Thoại (Hotline): 1900 545 436" [level=6] [ref=e1098]'
+```

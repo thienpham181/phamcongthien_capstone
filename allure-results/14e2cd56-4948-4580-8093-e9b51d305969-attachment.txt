@@ -1,0 +1,10 @@
+Trang Home - Đã đăng nhập
+Tên phim: AVATAR 2
+Tên rạp: MegaGS - Cao Thắng
+Lịch chiếu: 05-10-2021 ~ 08:25
+Verify Nhấn đặt 1 vé thành công
+Tổng ghế khả dụng: 159
+Chọn random ghế: 15
+Đã chọn ghế: 15
+Tên phim: AVATAR 2 | Tên rạp: MegaGS - Cao Thắng | Lịch chiếu: 05/10/2021 -08:10
+Kết thúc testcase

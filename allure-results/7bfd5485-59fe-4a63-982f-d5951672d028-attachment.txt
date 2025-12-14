@@ -1,0 +1,5 @@
+Trang Home - Chưa đăng nhập
+Verify Nhấn đặt vé chưa chọn ghế
+Random Cụm rạp số: 1
+Random xuất chiếu số: 1
+Kết thúc testcase

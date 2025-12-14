@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Lịch Chiếu" [level=4] [ref=e12] [cursor=pointer]
+        - heading "Cụm Rạp" [level=4] [ref=e14] [cursor=pointer]
+        - heading "Tin Tức" [level=4] [ref=e16] [cursor=pointer]
+        - heading "Ứng Dụng" [level=4] [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - link "Đăng Nhập" [ref=e20] [cursor=pointer]:
+          - /url: /sign-in
+          - img [ref=e21]
+          - heading "Đăng Nhập" [level=3] [ref=e23]
+        - separator [ref=e24]
+        - link "Đăng Ký" [ref=e25] [cursor=pointer]:
+          - /url: /sign-up
+          - img [ref=e26]
+          - heading "Đăng Ký" [level=3] [ref=e28]
+  - generic [ref=e34]:
+    - generic [ref=e38]:
+      - heading "30.09.2021" [level=4] [ref=e40]
+      - heading "The Gentlemen" [level=1] [ref=e42]
+      - heading "120phút" [level=5] [ref=e44]
+      - generic [ref=e45]: Mua vé
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - progressbar [ref=e50]:
+          - img [ref=e51]
+        - progressbar [ref=e54]:
+          - img [ref=e55]
+        - generic [ref=e58]: "10"
+      - img "5 Stars":
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+        - generic:
+          - generic:
+            - img
+    - generic [ref=e61]:
+      - tablist [ref=e65]:
+        - tab "cgv" [active] [selected] [ref=e66] [cursor=pointer]:
+          - img "cgv" [ref=e69]
+        - tab "Galaxy Cinema" [ref=e70] [cursor=pointer]:
+          - img "Galaxy Cinema" [ref=e73]
+      - tabpanel [ref=e76]:
+        - generic [ref=e78]:
+          - heading "CGV - Golden Plaza" [level=3] [ref=e80]
+          - link "07-12-2025 ~ 06:00" [ref=e83] [cursor=pointer]:
+            - /url: /purchase/46716
+            - paragraph [ref=e84]: 07-12-2025
+            - paragraph [ref=e85]: ~
+            - paragraph [ref=e86]: 06:00
+```

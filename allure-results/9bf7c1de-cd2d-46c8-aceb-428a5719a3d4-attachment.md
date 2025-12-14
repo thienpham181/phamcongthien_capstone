@@ -1,0 +1,390 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - img "Logo" [ref=e9]
+      - generic [ref=e10]:
+        - heading "Lịch Chiếu" [level=4] [ref=e12] [cursor=pointer]
+        - heading "Cụm Rạp" [level=4] [ref=e14] [cursor=pointer]
+        - heading "Tin Tức" [level=4] [ref=e16] [cursor=pointer]
+        - heading "Ứng Dụng" [level=4] [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - link "Đăng Nhập" [ref=e20] [cursor=pointer]:
+          - /url: /sign-in
+          - img [ref=e21]
+          - heading "Đăng Nhập" [level=3] [ref=e23]
+        - separator [ref=e24]
+        - link "Đăng Ký" [ref=e25] [cursor=pointer]:
+          - /url: /sign-up
+          - img [ref=e26]
+          - heading "Đăng Ký" [level=3] [ref=e28]
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - img "Img alt" [ref=e35]
+      - button "Next" [ref=e37] [cursor=pointer]:
+        - img [ref=e39]
+      - button "Previous" [ref=e42] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e46]:
+        - button [ref=e47] [cursor=pointer]:
+          - img [ref=e49]
+        - button [ref=e51] [cursor=pointer]:
+          - img [ref=e53]
+        - button [ref=e55] [cursor=pointer]:
+          - img [ref=e57]
+    - generic [ref=e60]:
+      - generic [ref=e64]:
+        - combobox [ref=e65] [cursor=pointer]:
+          - option "Phim" [disabled] [selected]
+          - option "The Gentlemen"
+          - option "Man of Steel"
+          - option "AVATAR 2"
+          - option "gái già lắm chiêu"
+          - 'option "SPIDER-MAN: NO WAY HOME"'
+          - option "doctor stranger 2"
+          - option "Nhà Bà Nữ"
+          - option "RỪNG SĂN NGƯỜI"
+          - option "Captain Marvel 2"
+          - option "iron man 4"
+          - option "Thor 6"
+          - option "CÔ GÁI TỪ QUÁ KHỨ"
+          - option "BỖNG DƯNG TRÚNG SỐ"
+          - option "John Cena WWE"
+          - option "HÀNH TRÌNH CỦA MOANA 2"
+          - option "Địa đạo"
+        - img
+      - generic [ref=e69]:
+        - combobox [ref=e70] [cursor=pointer]:
+          - option "Rạp" [disabled] [selected]
+        - img
+      - generic [ref=e74]:
+        - combobox [ref=e75] [cursor=pointer]:
+          - option "Ngày giờ chiếu" [disabled] [selected]
+        - img
+      - button "MUA VÉ NGAY" [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]: MUA VÉ NGAY
+  - generic [ref=e82]:
+    - generic [ref=e86]:
+      - link "C18 The Gentlemen Quý ông thế giới ngầm là một bộ phim phim hành động hài Anh-Mỹ năm 2019 biên soạn, đạo diễn và sản xuất bởi Guy Ritchie, từ một câu chuyện của Ivan Atkinson, Marn Davies, và Ritchie" [ref=e89] [cursor=pointer]:
+        - /url: /detail/8898
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: C18
+            - text: The Gentlemen
+          - heading "Quý ông thế giới ngầm là một bộ phim phim hành động hài Anh-Mỹ năm 2019 biên soạn, đạo diễn và sản xuất bởi Guy Ritchie, từ một câu chuyện của Ivan Atkinson, Marn Davies, và Ritchie" [level=4] [ref=e97]
+      - link "C18 Man of Steel Bộ phim xoay quanh Clark Kent, trong Man Of Steel, chàng trai từ Krypton được gửi đến Trái Đất do hành tinh của anh bị tấn công và hủy diệt. Phim Man Of Steel kể từ lúc Clark Kent còn nhỏ cho đến lúc trưởng anh, anh được một cặp vợ chồng tốt bụng nhận nuôi và càng lớn Clark Kent càng nhận thức được sức mạnh sẵn có trong người mình. Cho đến một ngày kẻ thù ngày xưa đã tàn phá hành tinh của anh tìm đến để hủy diệt trái đất, anh phải đứng ra bảo vệ trái đất nơi mình đã lớn lên." [ref=e100] [cursor=pointer]:
+        - /url: /detail/9387
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: C18
+            - text: Man of Steel
+          - heading "Bộ phim xoay quanh Clark Kent, trong Man Of Steel, chàng trai từ Krypton được gửi đến Trái Đất do hành tinh của anh bị tấn công và hủy diệt. Phim Man Of Steel kể từ lúc Clark Kent còn nhỏ cho đến lúc trưởng anh, anh được một cặp vợ chồng tốt bụng nhận nuôi và càng lớn Clark Kent càng nhận thức được sức mạnh sẵn có trong người mình. Cho đến một ngày kẻ thù ngày xưa đã tàn phá hành tinh của anh tìm đến để hủy diệt trái đất, anh phải đứng ra bảo vệ trái đất nơi mình đã lớn lên." [level=4] [ref=e108]
+      - link "C18 AVATAR 2 Khi tất cả những người thù địch trong Avatar – Pandora đều đã bị trục xuất khỏi Pandora. Hòa bình lại được trở lại nhưng những người thổ dân này lại bị đe dọa và bị thuộc địa hóa. Jake Sully (Sam Worrthington) đã trở thành một trong số bọn họ. Khi anh biết nhà mới của mình đã từng là nơi ở của những kẻ phải ra đi thì anh vẫn luôn cảnh giác. Các khu rừng nhiệt đới vẫn còn rất nhiều điều bất ngờ, ngay cả độ sâu của đại dương Pandora cũng là một nơi mà hoàn toàn không ai biết cả." [ref=e111] [cursor=pointer]:
+        - /url: /detail/9390
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: C18
+            - text: AVATAR 2
+          - heading "Khi tất cả những người thù địch trong Avatar – Pandora đều đã bị trục xuất khỏi Pandora. Hòa bình lại được trở lại nhưng những người thổ dân này lại bị đe dọa và bị thuộc địa hóa. Jake Sully (Sam Worrthington) đã trở thành một trong số bọn họ. Khi anh biết nhà mới của mình đã từng là nơi ở của những kẻ phải ra đi thì anh vẫn luôn cảnh giác. Các khu rừng nhiệt đới vẫn còn rất nhiều điều bất ngờ, ngay cả độ sâu của đại dương Pandora cũng là một nơi mà hoàn toàn không ai biết cả." [level=4] [ref=e119]
+      - link "C18 gái già lắm chiêu Cuộc chiến “Chị - Em máu mủ tình thâm” chỉ vì hai chữ TÌNH- TIỀN của ba chị em gái Lý gia tại Biệt thự Bạch Trà Viên xứ Huế. Chính vì vòng xoáy “tình – tiền, được – mất” đã khiến họ từ chị em trở thành những kẻ đối đầu trong mối quan hệ tình thân. Câu chuyện bắt đầu vào đêm đấu giá phiên Xuân tại Bạch Trà Viên, Phượng bào tam vĩ - cổ vật 30 triệu đô, bảo vật của Lý gia bị mất cắp. Khiến ba chị em bắt đầu nghi kỵ lẫn nhau đồng thời phơi bày nhiều bí mật động trời tưởng chừng đã được che giấu suốt cả một đời." [ref=e122] [cursor=pointer]:
+        - /url: /detail/9913
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: C18
+            - text: gái già lắm chiêu
+          - heading "Cuộc chiến “Chị - Em máu mủ tình thâm” chỉ vì hai chữ TÌNH- TIỀN của ba chị em gái Lý gia tại Biệt thự Bạch Trà Viên xứ Huế. Chính vì vòng xoáy “tình – tiền, được – mất” đã khiến họ từ chị em trở thành những kẻ đối đầu trong mối quan hệ tình thân. Câu chuyện bắt đầu vào đêm đấu giá phiên Xuân tại Bạch Trà Viên, Phượng bào tam vĩ - cổ vật 30 triệu đô, bảo vật của Lý gia bị mất cắp. Khiến ba chị em bắt đầu nghi kỵ lẫn nhau đồng thời phơi bày nhiều bí mật động trời tưởng chừng đã được che giấu suốt cả một đời." [level=4] [ref=e130]
+      - 'link "C18 SPIDER-MAN: NO WAY HOME Bị lộ mặt và trở thành kẻ thù quốc dân, Peter Parker tìm đến Dr Strange để nhờ thực hiện câu thần chú, khiến mọi người quên đi việc cậu là Spider-Man. Thế nhưng, quá trình thực hiện xảy ra sự cố. Đa vũ trụ hình thành. Những kẻ thù ở các vũ trụ trước đây của Người Nhện lần lượt xuất hiện. Phải chống lại Green Goblin, Doc Ock, Electro, Sandman và Lizard…, làm thế nào Nhện nhí có thể bảo vệ được người thân và bạn bè?" [ref=e133] [cursor=pointer]':
+        - /url: /detail/9954
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: C18
+            - text: "SPIDER-MAN: NO WAY HOME"
+          - heading "Bị lộ mặt và trở thành kẻ thù quốc dân, Peter Parker tìm đến Dr Strange để nhờ thực hiện câu thần chú, khiến mọi người quên đi việc cậu là Spider-Man. Thế nhưng, quá trình thực hiện xảy ra sự cố. Đa vũ trụ hình thành. Những kẻ thù ở các vũ trụ trước đây của Người Nhện lần lượt xuất hiện. Phải chống lại Green Goblin, Doc Ock, Electro, Sandman và Lizard…, làm thế nào Nhện nhí có thể bảo vệ được người thân và bạn bè?" [level=4] [ref=e141]
+      - link "C18 doctor stranger 2 Phù thủy tối thượng trong Đa Vũ trụ hỗn loạn là một bộ phim siêu anh hùng năm 2022 của Mỹ dựa trên nhân vật Dr. Stephen Strange của Marvel Comics, do Marvel Studios sản xuất và được phân phối bởi Walt Disney Studios Motion Pictures" [ref=e144] [cursor=pointer]:
+        - /url: /detail/10426
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]: C18
+            - text: doctor stranger 2
+          - heading "Phù thủy tối thượng trong Đa Vũ trụ hỗn loạn là một bộ phim siêu anh hùng năm 2022 của Mỹ dựa trên nhân vật Dr. Stephen Strange của Marvel Comics, do Marvel Studios sản xuất và được phân phối bởi Walt Disney Studios Motion Pictures" [level=4] [ref=e152]
+      - link "C18 Nhà Bà Nữ Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \"phá án\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \"chuyên án đặc biệt\" của ông đứng trước nguy cơ đổ bể." [ref=e155] [cursor=pointer]:
+        - /url: /detail/10531
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]: C18
+            - text: Nhà Bà Nữ
+          - heading "Ông Thái là một cảnh sát về hưu nhưng không chịu an phận thủ thường, hàng ngày vẫn đi tìm bắt tội phạm vặt trong xóm cho đỡ nhớ nghề. Một ngày kia, Hoàng - tên trùm ma túy mới ra tù bỗng dưng chuyển đến xóm ông và mở một văn phòng bất động sản. Nghi ngờ đây là nơi làm ăn phi pháp, ông Thái quyết định âm thầm điều tra. Ông mua lại tiệm cơm tấm đối diện trụ sở của Hoàng để làm nơi theo dõi, đồng thời thu nạp Thu - Phú - Vinh - Mèo, đám thanh niên “bất hảo” trong xóm về quán hỗ trợ buôn bán để rảnh tay \"phá án\". Trớ trêu thay, tiệm cơm bất ngờ nổi tiếng và ăn nên làm ra, khiến cho \"chuyên án đặc biệt\" của ông đứng trước nguy cơ đổ bể." [level=4] [ref=e163]
+      - link "C18 RỪNG SĂN NGƯỜI Một biệt đội được phái vào rừng sâu để tìm tài liệu tuyệt mật và những người đồng đội mất tích. Nhưng mọi thứ không đơn giản như thế, họ đã tiến vào một vùng đất chất, nơi quỷ dữ thống trị và điều khiển mọi thứ. Đặc biệt, phim có sự góp mặt của Mickey Rourke, phản diện chính từ Iron Man 2." [ref=e166] [cursor=pointer]:
+        - /url: /detail/10614
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]: C18
+            - text: RỪNG SĂN NGƯỜI
+          - heading "Một biệt đội được phái vào rừng sâu để tìm tài liệu tuyệt mật và những người đồng đội mất tích. Nhưng mọi thứ không đơn giản như thế, họ đã tiến vào một vùng đất chất, nơi quỷ dữ thống trị và điều khiển mọi thứ. Đặc biệt, phim có sự góp mặt của Mickey Rourke, phản diện chính từ Iron Man 2." [level=4] [ref=e174]
+    - generic [ref=e175]:
+      - button [ref=e176] [cursor=pointer]:
+        - img [ref=e178]
+      - button [ref=e180] [cursor=pointer]:
+        - img [ref=e182]
+  - generic [ref=e185]:
+    - tablist [ref=e188]:
+      - tab "bhd-star-cineplex" [ref=e189] [cursor=pointer]:
+        - img "bhd-star-cineplex" [ref=e192]
+      - tab "cgv" [ref=e193] [cursor=pointer]:
+        - img "cgv" [ref=e196]
+      - tab "cinestar" [ref=e197] [cursor=pointer]:
+        - img "cinestar" [ref=e200]
+      - tab "galaxy-cinema" [selected] [ref=e201] [cursor=pointer]:
+        - img "galaxy-cinema" [ref=e204]
+      - tab "lotte-cinema" [ref=e205] [cursor=pointer]:
+        - img "lotte-cinema" [ref=e208]
+      - tab "megags" [ref=e209] [cursor=pointer]:
+        - img "megags" [ref=e212]
+    - tabpanel [ref=e214]:
+      - tablist [ref=e218]:
+        - tab "GLX - Kinh Dương Vương 718bis Kinh Dương Vương, Q.6 [chi tiết]" [active] [selected] [ref=e219] [cursor=pointer]:
+          - generic [ref=e221]:
+            - heading "GLX - Kinh Dương Vương" [level=4] [ref=e222]
+            - heading "718bis Kinh Dương Vương, Q.6" [level=6] [ref=e223]
+            - link "[chi tiết]" [ref=e224]:
+              - /url: /
+        - tab "GLX - Huỳnh Tấn Phát 1362 Huỳnh Tấn Phát, KP1, Phú Mỹ, Q. 7 [chi tiết]" [ref=e225] [cursor=pointer]:
+          - generic [ref=e227]:
+            - heading "GLX - Huỳnh Tấn Phát" [level=4] [ref=e228]
+            - heading "1362 Huỳnh Tấn Phát, KP1, Phú Mỹ, Q. 7" [level=6] [ref=e229]
+            - link "[chi tiết]" [ref=e230]:
+              - /url: /
+        - tab "GLX - Quang Trung L3-Co.opmart Foodcosa, 304A Quang Trung, Gò Vấp [chi tiết]" [ref=e231] [cursor=pointer]:
+          - generic [ref=e233]:
+            - heading "GLX - Quang Trung" [level=4] [ref=e234]
+            - heading "L3-Co.opmart Foodcosa, 304A Quang Trung, Gò Vấp" [level=6] [ref=e235]
+            - link "[chi tiết]" [ref=e236]:
+              - /url: /
+        - tab "GLX - Nguyễn Văn Quá 119B Nguyễn Văn Quá, Đông Hưng Thuận, Q.12, TPHCM [chi tiết]" [ref=e237] [cursor=pointer]:
+          - generic [ref=e239]:
+            - heading "GLX - Nguyễn Văn Quá" [level=4] [ref=e240]
+            - heading "119B Nguyễn Văn Quá, Đông Hưng Thuận, Q.12, TPHCM" [level=6] [ref=e241]
+            - link "[chi tiết]" [ref=e242]:
+              - /url: /
+        - tab "GLX - Nguyễn Du 116 Nguyễn Du, Q.1 [chi tiết]" [ref=e243] [cursor=pointer]:
+          - generic [ref=e245]:
+            - heading "GLX - Nguyễn Du" [level=4] [ref=e246]
+            - heading "116 Nguyễn Du, Q.1" [level=6] [ref=e247]
+            - link "[chi tiết]" [ref=e248]:
+              - /url: /
+        - tab "GLX - Trung Chánh TTVH Q12 – 09, Q L 22, Trung Mỹ Tây , Q.12 [chi tiết]" [ref=e249] [cursor=pointer]:
+          - generic [ref=e251]:
+            - heading "GLX - Trung Chánh" [level=4] [ref=e252]
+            - heading "TTVH Q12 – 09, Q L 22, Trung Mỹ Tây , Q.12" [level=6] [ref=e253]
+            - link "[chi tiết]" [ref=e254]:
+              - /url: /
+        - tab "GLX - Phạm Văn Chí Lầu 5, TTTM Platinum Plaza, 634 Phạm Văn Chí, Q.6 [chi tiết]" [ref=e255] [cursor=pointer]:
+          - generic [ref=e257]:
+            - heading "GLX - Phạm Văn Chí" [level=4] [ref=e258]
+            - heading "Lầu 5, TTTM Platinum Plaza, 634 Phạm Văn Chí, Q.6" [level=6] [ref=e259]
+            - link "[chi tiết]" [ref=e260]:
+              - /url: /
+        - tab "GLX - Tân Bình 246 Nguyễn Hồng Đào, Tân Bình [chi tiết]" [ref=e261] [cursor=pointer]:
+          - generic [ref=e263]:
+            - heading "GLX - Tân Bình" [level=4] [ref=e264]
+            - heading "246 Nguyễn Hồng Đào, Tân Bình" [level=6] [ref=e265]
+            - link "[chi tiết]" [ref=e266]:
+              - /url: /
+    - tabpanel [ref=e268]:
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - img "John Wick" [ref=e271]
+          - generic [ref=e272]:
+            - heading "C18 John Wick" [level=2] [ref=e273]:
+              - generic [ref=e274]: C18
+              - text: John Wick
+            - generic [ref=e275]:
+              - link "02-01-2019 ~ 00:00" [ref=e276] [cursor=pointer]:
+                - /url: /purchase/40522
+                - generic [ref=e277]:
+                  - paragraph [ref=e278]: 02-01-2019
+                  - paragraph [ref=e279]: ~
+                  - heading "00:00" [level=3] [ref=e280]
+              - link "10-09-2020 ~ 15:20" [ref=e281] [cursor=pointer]:
+                - /url: /purchase/40523
+                - generic [ref=e282]:
+                  - paragraph [ref=e283]: 10-09-2020
+                  - paragraph [ref=e284]: ~
+                  - heading "15:20" [level=3] [ref=e285]
+              - link "09-10-2020 ~ 12:05" [ref=e286] [cursor=pointer]:
+                - /url: /purchase/40524
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: 09-10-2020
+                  - paragraph [ref=e289]: ~
+                  - heading "12:05" [level=3] [ref=e290]
+        - generic [ref=e291]:
+          - img "Siêu Thú Cuồng Nộ" [ref=e292]
+          - generic [ref=e293]:
+            - heading "C18 Siêu Thú Cuồng Nộ" [level=2] [ref=e294]:
+              - generic [ref=e295]: C18
+              - text: Siêu Thú Cuồng Nộ
+            - generic [ref=e296]:
+              - link "10-10-2020 ~ 20:00" [ref=e297] [cursor=pointer]:
+                - /url: /purchase/40530
+                - generic [ref=e298]:
+                  - paragraph [ref=e299]: 10-10-2020
+                  - paragraph [ref=e300]: ~
+                  - heading "20:00" [level=3] [ref=e301]
+              - link "10-10-2020 ~ 22:20" [ref=e302] [cursor=pointer]:
+                - /url: /purchase/40531
+                - generic [ref=e303]:
+                  - paragraph [ref=e304]: 10-10-2020
+                  - paragraph [ref=e305]: ~
+                  - heading "22:20" [level=3] [ref=e306]
+        - generic [ref=e307]:
+          - img "Scoob!" [ref=e308]
+          - generic [ref=e309]:
+            - heading "C18 Scoob!" [level=2] [ref=e310]:
+              - generic [ref=e311]: C18
+              - text: Scoob!
+            - link "21-12-2021 ~ 09:00" [ref=e313] [cursor=pointer]:
+              - /url: /purchase/43618
+              - generic [ref=e314]:
+                - paragraph [ref=e315]: 21-12-2021
+                - paragraph [ref=e316]: ~
+                - heading "09:00" [level=3] [ref=e317]
+        - generic [ref=e318]:
+          - img "Film Test" [ref=e319]
+          - generic [ref=e320]:
+            - heading "C18 Film Test" [level=2] [ref=e321]:
+              - generic [ref=e322]: C18
+              - text: Film Test
+            - link "14-01-2022 ~ 20:56" [ref=e324] [cursor=pointer]:
+              - /url: /purchase/45391
+              - generic [ref=e325]:
+                - paragraph [ref=e326]: 14-01-2022
+                - paragraph [ref=e327]: ~
+                - heading "20:56" [level=3] [ref=e328]
+  - generic [ref=e329]:
+    - tablist [ref=e332]:
+      - tab "Điện Ảnh 24h" [selected] [ref=e333] [cursor=pointer]:
+        - generic [ref=e334]: Điện Ảnh 24h
+      - tab "Review" [ref=e335] [cursor=pointer]:
+        - generic [ref=e336]: Review
+      - tab "Khuyến mãi" [ref=e337] [cursor=pointer]:
+        - generic [ref=e338]: Khuyến mãi
+    - tabpanel
+    - button "XEM THÊM" [ref=e341] [cursor=pointer]:
+      - generic [ref=e342]: XEM THÊM
+  - generic [ref=e345]:
+    - generic [ref=e346]:
+      - paragraph [ref=e347]: Ứng dụng tiện lợi dành cho
+      - paragraph [ref=e348]: người yêu điện ảnh
+      - paragraph [ref=e349]: Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp và đổi quà hấp dẫn.
+      - link "App miễn phí - Tải về ngay!" [ref=e350] [cursor=pointer]:
+        - /url: https://apps.apple.com/us/app/123phim-mua-ve-lien-tay-chon/id615186197
+        - generic [ref=e351]: App miễn phí - Tải về ngay!
+      - paragraph [ref=e352]:
+        - text: TIX có hai phiên bản
+        - link "IOS" [ref=e353] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/123phim-mua-ve-lien-tay-chon/id615186197
+        - text: "&"
+        - link "Android" [ref=e354] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=vn.com.vng.phim123
+    - generic [ref=e355]:
+      - img "phone" [ref=e356]
+      - img "slider" [ref=e361]
+  - contentinfo [ref=e362]:
+    - generic [ref=e363]:
+      - generic [ref=e364]:
+        - paragraph [ref=e366]:
+          - heading "TIX" [level=6] [ref=e367]
+          - generic [ref=e368]:
+            - generic [ref=e369]: FAQ
+            - generic [ref=e370]: Thỏa thuận sử dụng
+            - generic [ref=e371]: Brand Guidelines
+            - generic [ref=e372]: Chính sách bảo mật
+        - paragraph [ref=e374]:
+          - heading "ĐỐI TÁC" [level=6] [ref=e375]
+          - generic [ref=e376]:
+            - link "cgvlogo" [ref=e378] [cursor=pointer]:
+              - /url: https://www.cgv.vn/
+              - img "cgvlogo" [ref=e379]
+            - link "bhdlogo" [ref=e381] [cursor=pointer]:
+              - /url: https://www.bhdstar.vn/
+              - img "bhdlogo" [ref=e382]
+            - link "galaxylogo" [ref=e384] [cursor=pointer]:
+              - /url: https://www.galaxycine.vn/
+              - img "galaxylogo" [ref=e385]
+            - link "starlogo" [ref=e387] [cursor=pointer]:
+              - /url: http://cinestar.com.vn/
+              - img "starlogo" [ref=e388]
+            - link "lottelogo" [ref=e390] [cursor=pointer]:
+              - /url: http://lottecinemavn.com/LCHS/index.aspx
+              - img "lottelogo" [ref=e391]
+            - link "megalogo" [ref=e393] [cursor=pointer]:
+              - /url: https://www.megagscinemas.vn/
+              - img "megalogo" [ref=e394]
+            - link "betalogo" [ref=e396] [cursor=pointer]:
+              - /url: https://www.betacinemas.vn/home.htm
+              - img "betalogo" [ref=e397]
+            - link "ddclogo" [ref=e399] [cursor=pointer]:
+              - /url: http://ddcinema.vn/
+              - img "ddclogo" [ref=e400]
+            - link "touchlogo" [ref=e402] [cursor=pointer]:
+              - /url: https://touchcinema.com/
+              - img "touchlogo" [ref=e403]
+            - link "cinemaxlogo" [ref=e405] [cursor=pointer]:
+              - /url: https://cinemaxvn.com/
+              - img "cinemaxlogo" [ref=e406]
+            - link "starlightlogo" [ref=e408] [cursor=pointer]:
+              - /url: https://starlight.vn/
+              - img "starlightlogo" [ref=e409]
+            - link "dcinelogo" [ref=e411] [cursor=pointer]:
+              - /url: https://www.dcine.vn/
+              - img "dcinelogo" [ref=e412]
+            - link "zalologo" [ref=e414] [cursor=pointer]:
+              - /url: https://zalopay.vn/
+              - img "zalologo" [ref=e415]
+            - link "payoologo" [ref=e417] [cursor=pointer]:
+              - /url: https://www.payoo.vn/
+              - img "payoologo" [ref=e418]
+            - link "vietcombanklogo" [ref=e420] [cursor=pointer]:
+              - /url: https://portal.vietcombank.com.vn/Pages/Home.aspx
+              - img "vietcombanklogo" [ref=e421]
+            - link "agribanklogo" [ref=e423] [cursor=pointer]:
+              - /url: https://www.payoo.vn/
+              - img "agribanklogo" [ref=e424]
+            - link "viettinbanklogo" [ref=e426] [cursor=pointer]:
+              - /url: https://www.vietinbank.vn/web/home/vn/index.html
+              - img "viettinbanklogo" [ref=e427]
+            - link "ivblogo" [ref=e429] [cursor=pointer]:
+              - /url: https://www.indovinabank.com.vn/
+              - img "ivblogo" [ref=e430]
+            - link "bachamlogo" [ref=e432] [cursor=pointer]:
+              - /url: https://webv3.123go.vn/
+              - img "bachamlogo" [ref=e433]
+            - link "labanlogo" [ref=e435] [cursor=pointer]:
+              - /url: https://laban.vn/
+              - img "labanlogo" [ref=e436]
+        - generic [ref=e438]:
+          - paragraph [ref=e440]:
+            - heading "MOBILE APP" [level=6] [ref=e441]
+            - generic [ref=e442]:
+              - link [ref=e444] [cursor=pointer]:
+                - /url: https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197
+              - link [ref=e446] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=vn.com.vng.phim123
+          - paragraph [ref=e448]:
+            - heading "SOCIAL" [level=6] [ref=e449]
+            - generic [ref=e450]:
+              - link [ref=e452] [cursor=pointer]:
+                - /url: https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197
+              - link [ref=e454] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=vn.com.vng.phim123
+      - separator [ref=e455]
+      - paragraph [ref=e456]:
+        - generic [ref=e459]:
+          - heading "TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION" [level=6] [ref=e460]
+          - 'heading "Địa chỉ: Z06 Đường số 13, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh, Việt Nam." [level=6] [ref=e461]'
+          - 'heading "Giấy chứng nhận đăng ký kinh doanh số: 0101659783," [level=6] [ref=e462]'
+          - heading "đăng ký thay đổi lần thứ 30, ngày 22 tháng 01 năm 2020 do Sở kế hoạch và đầu tư Thành phố Hồ Chí Minh cấp." [level=6] [ref=e463]
+          - 'heading "Số Điện Thoại (Hotline): 1900 545 436" [level=6] [ref=e464]'
+```

@@ -1,0 +1,9 @@
+Trang Home - Đã đăng nhập
+Tên phim: Man of Steel
+Tên rạp: CNS - Quốc Thanh
+Lịch chiếu: 09-10-2021 ~ 02:40
+Verify Nhấn đặt vé thành công
+🎯 Tổng ghế khả dụng: 127
+🎫 Chọn random ghế: 151
+✅ Đã chọn ghế: 151
+Kết thúc testcase
