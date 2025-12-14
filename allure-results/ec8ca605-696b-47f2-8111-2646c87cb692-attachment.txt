@@ -1,6 +1,0 @@
-Trang Home - Đã đăng nhập
-Tên phim: RỪNG SĂN NGƯỜI
-Lịch chiếu: 21-09-2022 ~ 04:53
-Verify Nhấn đặt vé thành công
-🎯 Tổng số ghế có thể chọn: 0
-Kết thúc testcase

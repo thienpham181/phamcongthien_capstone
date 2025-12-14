@@ -1,3 +1,0 @@
-Before Each executed
-Verify Navigate to registration screen
-After Each executed

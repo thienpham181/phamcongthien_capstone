@@ -1,5 +1,0 @@
-Trang Home - Chưa đăng nhập
-Verfy Chọn Rạp và lịch chiếu
-Tên phim: SPIDER-MAN: NO WAY HOME
-Tên rạp: Lotte - Nowzone
-Kết thúc testcase

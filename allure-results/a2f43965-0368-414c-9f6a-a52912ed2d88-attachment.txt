@@ -1,7 +1,0 @@
-Trang Home - Chưa đăng nhập
-Tên phim: The Gentlemen
-Tên rạp: GLX - Nguyễn Văn Quá
-Lịch chiếu: 30-09-2021 ~ 01:58
-Verify Nhấn đặt vé và Không login
-Tên phim: The Gentlemen | Tên rạp: GLX - Nguyễn Văn Quá | Lịch chiếu: 30/09/2021 -01:09
-Kết thúc testcase

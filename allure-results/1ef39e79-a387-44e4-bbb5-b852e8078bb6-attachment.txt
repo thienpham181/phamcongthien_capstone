@@ -1,4 +1,0 @@
-Trang Home - Đã đăng nhập
-Tên phim: SPIDER-MAN: NO WAY HOME
-Tên rạp: Lotte - Nowzone
-Kết thúc testcase

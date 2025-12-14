@@ -1,6 +1,0 @@
-Trang Home - Đã đăng nhập
-🎬 Tên phim: doctor stranger 2
-🏢 Tên rạp: CGV - CT Plaza
-🕒 Lịch chiếu: 14-04-2022 ~ 19:30
-Verify Nhấn đặt vé khi chưa chọn ghế
-Kết thúc testcase

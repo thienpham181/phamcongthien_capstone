@@ -1,3 +1,0 @@
-Before Each executed
-Verify Register Successfully
-After Each executed

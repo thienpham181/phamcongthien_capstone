@@ -1,5 +1,0 @@
-Trang Home - Chưa đăng nhập
-Random Cụm rạp số: 0
-Random xuất chiếu số: 1
-Verify Nhấn đặt vé và đồng ý login
-Kết thúc testcase

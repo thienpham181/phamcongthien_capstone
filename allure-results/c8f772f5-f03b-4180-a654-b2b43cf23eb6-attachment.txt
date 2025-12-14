@@ -1,3 +1,0 @@
-Before Each executed
-Verify "Bạn chưa có tài khoản? Đăng ký" link
-After Each executed

@@ -1,6 +1,0 @@
-Trang Home - Đã đăng nhập
-🎬 Tên phim: Man of Steel
-🏢 Tên rạp: CNS - Quốc Thanh
-🕒 Lịch chiếu: 09-10-2021 ~ 02:40
-Verify Nhấn đặt vé khi chưa chọn ghế
-Kết thúc testcase

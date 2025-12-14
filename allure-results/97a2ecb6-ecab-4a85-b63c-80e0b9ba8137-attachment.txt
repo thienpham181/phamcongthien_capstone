@@ -1,3 +1,0 @@
-Before Each executed
-Verify Play Movie
-After Each executed

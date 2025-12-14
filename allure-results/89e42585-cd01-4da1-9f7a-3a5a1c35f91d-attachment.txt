@@ -1,5 +1,0 @@
-Trang Home - Chưa đăng nhập
-Tên phim: Man of Steel
-Tên rạp: CNS - Quốc Thanh
-Verify Nhấn đặt vé và đồng ý login
-Kết thúc testcase

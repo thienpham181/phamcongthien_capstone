@@ -1,4 +1,0 @@
-Before Each executed
-Verify Play Movie
-locator('//div[@class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"]//div[@class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-3"][2]')
-After Each executed

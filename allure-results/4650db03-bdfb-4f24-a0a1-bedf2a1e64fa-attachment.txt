@@ -1,5 +1,0 @@
-Trang Home - Chưa đăng nhập
-Tên phim: Nhà Bà Nữ
-Tên rạp: CNS - Quốc Thanh
-Verify Nhấn đặt vé và Không login
-Kết thúc testcase

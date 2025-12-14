@@ -1,6 +1,0 @@
-Trang Home - Chưa đăng nhập
-Tên phim: SPIDER-MAN: NO WAY HOME
-Tên rạp: Lotte - Nowzone
-Verify Nhấn đặt vé và Không login
-🎬 SPIDER-MAN: NO WAY HOME | 🏢 Lotte - Nowzone | 🕒 24/12/2021 -01:12
-Kết thúc testcase

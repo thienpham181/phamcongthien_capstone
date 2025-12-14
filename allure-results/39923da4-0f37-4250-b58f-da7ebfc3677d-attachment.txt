@@ -1,3 +1,0 @@
-Before Each executed
-Verify Register with with empty all fields
-After Each executed
