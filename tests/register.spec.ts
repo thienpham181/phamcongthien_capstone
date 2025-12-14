@@ -80,7 +80,7 @@ test.describe('Register Test Future', () => {
         await expect(registerPage.getlblMsgEmptyName()).toBeVisible(); //message Đây là trường bắt buộc !
     })
 
-     test('Verify Register with empty email', async ({ registerPage }) => {
+    test('Verify Register with empty email', async ({ registerPage }) => {
         console.log('Verify Register with empty email');
         const account = generateAccount();
         const email = `${account}@gmail.com`;
@@ -135,9 +135,8 @@ test.describe('Register Test Future', () => {
         await loginPage.verifyPopupLoginVisible();
     })
 
-
     test.afterEach(async ({ page }) => {
-        console.log('After Each executed')
+        console.log('Kết thúc testcase')
     })
 
 })

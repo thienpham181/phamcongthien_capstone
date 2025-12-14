@@ -70,7 +70,7 @@ test.describe('Login Test Future', () => {
     })
 
     test.afterEach(async ({ page }) => {
-        console.log('After Each executed')
+        console.log('Kết thúc testcase')
     })
 
 })

@@ -94,8 +94,6 @@ test.describe('Home Guest Future', () => {
         await bookingPage.verifyBooking();
     })
 
-
-
     test.afterEach(async ({ page }) => {
         console.log('Kết thúc testcase')
     })

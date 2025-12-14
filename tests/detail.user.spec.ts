@@ -39,6 +39,10 @@ test.describe('Detail User Future', () => {
         await expect(bookingInfo.cinema).toContain(selectedInfo.rapText);
         await expect(bookingInfo.time).toContain(selectedInfo.lichText);
     })
+    
+    test.afterEach(async ({ page }) => {
+        console.log('Kết thúc testcase')
+    })
 
 })
 
