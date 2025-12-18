@@ -1,0 +1,3 @@
+Trang Home
+Verify Register with empty account
+Kết thúc testcase

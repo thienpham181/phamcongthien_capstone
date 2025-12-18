@@ -1,0 +1,3 @@
+Trang Home
+Verify Register with invalid name
+Kết thúc testcase

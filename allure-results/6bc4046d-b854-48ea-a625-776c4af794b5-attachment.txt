@@ -1,0 +1,3 @@
+Trang Home
+Verify Register with Incorrect confirm password
+Kết thúc testcase
