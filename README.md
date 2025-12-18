@@ -149,7 +149,7 @@ npm run report:open
   "report:generate": "allure generate allure-results --clean -o allure-report",
   "report:open": "allure open allure-report"
 }
-
+```
 ---
 
 ## Lưu ý khi chạy test
