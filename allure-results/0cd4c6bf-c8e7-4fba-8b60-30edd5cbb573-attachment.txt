@@ -1,0 +1,6 @@
+Trang Home - Đã đăng nhập
+Verfy Chọn phim đặt vé
+Random Cụm rạp số: 9
+Random Chi nhánh rạp số: 3
+Random xuất chiếu số: 17
+Kết thúc testcase

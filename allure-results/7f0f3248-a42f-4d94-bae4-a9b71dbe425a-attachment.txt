@@ -1,0 +1,9 @@
+Trang Home - Đã đăng nhập
+Tên phim: The Gentlemen
+Tên rạp: CGV - Golden Plaza
+Lịch chiếu: 07-12-2025 ~ 06:00
+Verify Nhấn đặt 1 vé thành công
+Tổng ghế khả dụng: 99
+Chọn random ghế: 155
+Đã chọn ghế: 155
+Kết thúc testcase

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "clean:allure": "rm -rf allure-results && mkdir allure-results",
+    "clean:allure": "rimraf allure-results && mkdir allure-results",
     "test:allure": "npm run clean:allure && npx playwright test --reporter=line,allure-playwright",
     "test": "npx playwright test",
     "test:ui": "npx playwright test --ui",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.10.1",
-    "allure-playwright": "^3.4.2"
+    "allure-playwright": "^3.4.2",
+    "rimraf": "^6.1.2"
   }
 }

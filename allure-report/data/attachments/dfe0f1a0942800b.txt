@@ -1,0 +1,3 @@
+Trang Home
+Verify Register with short password
+Kết thúc testcase

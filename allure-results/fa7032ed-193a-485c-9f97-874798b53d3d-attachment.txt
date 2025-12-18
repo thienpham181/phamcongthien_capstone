@@ -1,0 +1,3 @@
+Trang Home - Nhấn đăng nhập
+Verify "Bạn chưa có tài khoản? Đăng ký" link
+Kết thúc testcase

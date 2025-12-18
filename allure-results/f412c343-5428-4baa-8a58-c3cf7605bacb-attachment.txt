@@ -1,0 +1,9 @@
+Trang Home - Đã đăng nhập
+Tên phim: gái già lắm chiêu
+Tên rạp: CGV - Vincom Gò Vấp
+Lịch chiếu: 21-12-2021 ~ 16:00
+Verify lịch sử đặt vé
+Tổng ghế khả dụng: 39
+Chọn random ghế: ĐẶT VÉ
+Đã chọn ghế: ĐẶT VÉ
+Kết thúc testcase

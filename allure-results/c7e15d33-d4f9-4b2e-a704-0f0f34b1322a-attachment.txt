@@ -1,0 +1,3 @@
+Trang Home - Nhấn đăng nhập
+Login with empty account and password
+Kết thúc testcase
