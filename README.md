@@ -24,6 +24,10 @@ Nhằm tự động kiểm thử các tính năng chính của hệ thống http
 ```bash
 📦 PHAMCONGTHIEN_CAPSTONE
 │
+├── 📁 .GitHub/                     
+│   └──📁 workflow/ 
+│       └── playwright-ci.yml 		 # flow chạy khi push code lên Github
+│
 ├── 📁 allure-results/                 # Thư mục chứa kết quả test (Allure JSON)
 │
 ├── 📁 fixtures/                      
@@ -56,7 +60,7 @@ Nhằm tự động kiểm thử các tính năng chính của hệ thống http
 │   └── register.spec.ts              
 │
 ├── notify/ 
-│ └── telegram.js 		       # Script gửi thông báo qua Telegram
+│ └── telegram.js 		             # Script gửi thông báo qua Telegram
 │
 ├── .gitignore                        # File cấu hình Git (bỏ qua file thừa)
 ├── package-lock.json                 # Lock version dependency
@@ -113,7 +117,7 @@ System Requirements:
 
 ---
 ### CI/CD với GitHub Actions (Playwright + Allure + Telegram)
-##Dự án này đã được cấu hình CI/CD tự động bằng GitHub Actions nhằm:
+## Dự án này đã được cấu hình CI/CD tự động bằng GitHub Actions nhằm:
  - Chạy test Playwright khi push code / tạo pull request
  - Sinh báo cáo Allure Report
  - Gửi kết quả test lên Telegram
@@ -153,22 +157,22 @@ System Requirements:
 
 ### Chạy test thông thường
 
-npm run test
+ - npm run test
 
 
 ### Chạy test + sinh Allure Report
 
-npm run test:allure
+ - npm run test:allure
 
 
 ### Chạy test bằng giao diện UI
 
-npm run test:ui
+ - npm run test:ui
 
 
 ### Chạy test + Tạo report + gửi Telegram + Xem Allure Report
 
-npm run test:notify
+- npm run test:notify
 
 ---
 
@@ -180,8 +184,8 @@ npm run report:serve
 
 ### Cách 2: Sinh báo cáo tĩnh
 
-npm run report:generate
-npm run report:open
+ - npm run report:generate
+ - npm run report:open
 ---
 
 ## 🔧 Script có sẵn trong package.json
