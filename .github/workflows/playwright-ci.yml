@@ -17,14 +17,14 @@ jobs:
         uses: actions/checkout@v4
 
       # # 2️⃣ Setup Node
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: 20
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       # # 3️⃣ Install dependencies
-      # - name: Install dependencies
-      #   run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
       # # 4️⃣ Install Playwright browsers
       # - name: Install Playwright
