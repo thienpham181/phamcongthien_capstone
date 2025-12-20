@@ -27,8 +27,8 @@ jobs:
         run: npm ci
 
       # # 4️⃣ Install Playwright browsers
-      # - name: Install Playwright
-      #   run: npx playwright install --with-deps
+      - name: Install Playwright
+        run: npx playwright install --with-deps
 
       # =============================
       # 5️⃣ clean:allure
