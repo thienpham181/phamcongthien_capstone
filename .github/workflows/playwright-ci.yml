@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Node.js
+      # 2️⃣ Setup Node
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -27,29 +27,38 @@ jobs:
         run: npm ci
 
       # 4️⃣ Install Playwright browsers
-      - name: Install Playwright browsers
+      - name: Install Playwright
         run: npx playwright install --with-deps
 
-      # 5️⃣ Run Playwright tests + Allure
-      - name: Run Playwright tests
-        run: npm run test:allure
-        continue-on-error: true   # Không stop pipeline nếu test fail
+      # =============================
+      # 5️⃣ test:one
+      # =============================
+      - name: Run single test case
+        run: npm run test:one
+        continue-on-error: true
 
-      # 6️⃣ Generate Allure report
+      # =============================
+      # 6️⃣ report:generate
+      # =============================
       - name: Generate Allure report
         run: npm run report:generate
 
-      # 7️⃣ Upload Allure report (artifact)
-      - name: Upload Allure Report
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-report
-          path: allure-report
-
-      # 8️⃣ Send Telegram notification
+      # =============================
+      # 7️⃣ notify/telegram.js
+      # =============================
       - name: Send Telegram notification
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GITHUB_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: node notify/telegram.js
+
+      # =============================
+      # 8️⃣ Upload Allure report (THAY cho report:serve)
+      # =============================
+      - name: Upload Allure Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report
+
