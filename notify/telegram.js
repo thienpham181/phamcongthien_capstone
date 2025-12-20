@@ -10,7 +10,7 @@ if (!BOT_TOKEN || !CHAT_ID) {
 }
 
 const message = `
-🚀 *Playwright CI Completed*
+🚀 *Playwright CI Github Completed*
 
 📦 Repository: *${process.env.GITHUB_REPOSITORY}*
 🔁 Branch: *${process.env.GITHUB_REF_NAME}*
