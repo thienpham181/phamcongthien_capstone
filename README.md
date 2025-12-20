@@ -112,7 +112,35 @@ System Requirements:
  - npm install axios dotenv
 
 ---
-### Gửi thông báo Telegram tự động
+### CI/CD với GitHub Actions (Playwright + Allure + Telegram)
+##Dự án này đã được cấu hình CI/CD tự động bằng GitHub Actions nhằm:
+ - Chạy test Playwright khi push code / tạo pull request
+ - Sinh báo cáo Allure Report
+ - Gửi kết quả test lên Telegram
+ - Lưu Allure Report dưới dạng artifact để tải về
+
+## Thứ tự các step trong GitHub Actions:
+ - Checkout source code
+ - Setup Node.js
+ - Cài dependencies
+ - Cài Playwright browsers
+ - Chạy Playwright test (có Allure reporter)
+ - Cài Allure CLI
+ - Generate Allure Report
+ - Gửi thông báo kết quả test lên Telegram
+
+## Cấu hình Telegram Secrets
+ - Vào GitHub → Settings → Secrets and variables → Actions → New repository secret
+
+| Name                 | Giá trị                |
+|----------------------|------------------------|
+| TELEGRAM_BOT_TOKEN   | Token bot Telegram     |
+| TELEGRAM_CHAT_ID     | Chat ID nhận thông báo |
+
+
+---
+
+### Cấu hình gửi thông báo Telegram tự động
 1️⃣ Tạo bot Telegram
 2️⃣ Lấy chat ID
 3️⃣ Lưu vào file .env
