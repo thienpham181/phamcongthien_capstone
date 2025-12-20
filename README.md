@@ -112,13 +112,12 @@ System Requirements:
  - npm install axios dotenv
 
 ---
-##🤖 Gửi thông báo Telegram tự động
--1️⃣ Tạo bot Telegram
--2️⃣ Lấy chat ID
--3️⃣ Lưu vào file .env
-
-TELEGRAM_BOT_TOKEN=xxxxxx
-TELEGRAM_CHAT_ID=123456789
+### Gửi thông báo Telegram tự động
+1️⃣ Tạo bot Telegram
+2️⃣ Lấy chat ID
+3️⃣ Lưu vào file .env
+ - TELEGRAM_BOT_TOKEN=xxxxxx
+ - TELEGRAM_CHAT_ID=123456789
 
 ---
 
