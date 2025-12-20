@@ -4,16 +4,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "clean:allure": "rimraf allure-results && mkdir allure-results",
-    "test:allure": "npm run clean:allure && npx playwright test --reporter=line,allure-playwright",
+    "clean:allure": "rimraf allure-results allure-report", 
     "test": "npx playwright test",
     "test:ui": "npx playwright test --ui",
-    "test:clean": "rimraf allure-results",
-    "report:serve": "allure serve allure-results",
-    "report:generate": "allure generate allure-results --clean -o allure-report",
+    "test:allure": "npm run clean:allure && npx playwright test --reporter=line,allure-playwright", 
+    "test:one": "npm run clean:allure && npx playwright test tests/logout.spec.ts --reporter=line,allure-playwright", 
+    "report:generate": "allure generate allure-results --clean -o allure-report", 
     "report:open": "allure open allure-report",
-    "test:home": "npx playwright test tests/logout.spec.ts",
-    "test:notify": "npm run test:clean && npm run test:home && npm run report:generate && node notify/telegram.js"
+    "report:serve": "allure serve allure-results",
+    "test:notify": "npm run test:one && npm run report:generate && node notify/telegram.js && npm run report:serve" 
   },
   "keywords": [],
   "author": "",

@@ -7,7 +7,8 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 # Ignore Allure report results
-
+/allure-results/
+/allure-report/
 # Ignore environment files
 .env
 

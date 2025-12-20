@@ -1,8 +1,9 @@
 ## Giới thiệu Project Automation
-Đây là dự án **Automation Testing** được viết bằng **Playwright + TypeScript**,  
-nhằm tự động kiểm thử các tính năng chính của hệ thống https://demo1.cybersoft.edu.vn/ :
+Đây là dự án **Automation Testing** được viết bằng **Playwright + TypeScript**, 
+kết hợp Allure Report để theo dõi kết quả test và Telegram Bot để gửi thông báo tự động. 
+Nhằm tự động kiểm thử các tính năng chính của hệ thống https://demo1.cybersoft.edu.vn/ :
 - Trang chủ (Home)
-- Đăng nhập / Đăng ký /Đăng xuất
+- Đăng nhập / Đăng ký / Đăng xuất
 - Chi tiết phim
 - Đặt vé xem phim
 
@@ -54,6 +55,9 @@ nhằm tự động kiểm thử các tính năng chính của hệ thống http
 │   ├── logout.spec.ts               
 │   └── register.spec.ts              
 │
+├── notify/ 
+│ └── telegram.js 		       # Script gửi thông báo qua Telegram
+|
 ├── .gitignore                        # File cấu hình Git (bỏ qua file thừa)
 ├── package-lock.json                 # Lock version dependency
 ├── package.json                      # Khai báo script và dependencies
@@ -104,6 +108,17 @@ System Requirements:
 | 7    | Enter n tại “Add a Github Actions workflow? “                             |
 | 8    | Enter để đồng ý “Install Playwright browsers”                             |
 
+### Cài thêm axios và dotenv để gửi thông báo Telegram:
+ - npm install axios dotenv
+
+---
+🤖 Gửi thông báo Telegram tự động
+1️⃣ Tạo bot Telegram
+2️⃣ Lấy chat ID
+3️⃣ Lưu vào file .env
+TELEGRAM_BOT_TOKEN=xxxxxx
+TELEGRAM_CHAT_ID=123456789
+
 ---
 
 ## Chạy test
@@ -123,6 +138,10 @@ npm run test:allure
 npm run test:ui
 
 
+### Chạy test + Tạo report + gửi Telegram + Xem Allure Report
+
+npm run test:notify
+
 ---
 
 ## Xem báo cáo Allure
@@ -141,13 +160,14 @@ npm run report:open
 
 ```json
 "scripts": {
-  "clean:allure": "rimraf allure-results && mkdir allure-results",
-  "test:allure": "npm run clean:allure && npx playwright test --reporter=line,allure-playwright",
-  "test": "npx playwright test",
-  "test:ui": "npx playwright test --ui",
-  "report:serve": "allure serve allure-results",
-  "report:generate": "allure generate allure-results --clean -o allure-report",
-  "report:open": "allure open allure-report"
+    "clean:allure": "rimraf allure-results allure-report", 
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:allure": "npm run clean:allure && npx playwright test --reporter=line,allure-playwright", 
+    "report:generate": "allure generate allure-results --clean -o allure-report", 
+    "report:open": "allure open allure-report",
+    "report:serve": "allure serve allure-results",
+    "test:notify": "npm run test:allure && npm run report:generate && node notify/telegram.js " 
 }
 ```
 ---
