@@ -57,7 +57,7 @@ Nhằm tự động kiểm thử các tính năng chính của hệ thống http
 │
 ├── notify/ 
 │ └── telegram.js 		       # Script gửi thông báo qua Telegram
-|
+│
 ├── .gitignore                        # File cấu hình Git (bỏ qua file thừa)
 ├── package-lock.json                 # Lock version dependency
 ├── package.json                      # Khai báo script và dependencies
@@ -112,10 +112,11 @@ System Requirements:
  - npm install axios dotenv
 
 ---
-🤖 Gửi thông báo Telegram tự động
-1️⃣ Tạo bot Telegram
-2️⃣ Lấy chat ID
-3️⃣ Lưu vào file .env
+##🤖 Gửi thông báo Telegram tự động
+-1️⃣ Tạo bot Telegram
+-2️⃣ Lấy chat ID
+-3️⃣ Lưu vào file .env
+
 TELEGRAM_BOT_TOKEN=xxxxxx
 TELEGRAM_CHAT_ID=123456789
 
