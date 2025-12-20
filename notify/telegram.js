@@ -49,7 +49,7 @@ async function sendTelegramMessage(message) {
 async function main() {
   try {
     const summary = readAllureSummary();
-    const msg = `📊 *BÁO CÁO CI TEST TỰ ĐỘNG*  
+    const msg =`🚀 *Playwright CI Githup Completed*
 🕐 Thời gian: ${summary.time}  
 ✅ Pass: ${summary.passed}  
 ❌ Fail: ${summary.failed}  
