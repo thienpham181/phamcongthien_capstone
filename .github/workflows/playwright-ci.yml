@@ -45,6 +45,12 @@ jobs:
         continue-on-error: true
 
       # =============================
+      # 6️⃣ Install Allure CLI
+      # =============================
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline --save-dev
+
+      # =============================
       # 6️⃣ report:generate
       # =============================
       - name: Generate Allure report
