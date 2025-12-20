@@ -63,7 +63,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: node notify/telegram_local.js
+        run: node notify/telegram.js
 
       # =============================
       # 8️⃣ Upload Allure report (THAY cho report:serve)
