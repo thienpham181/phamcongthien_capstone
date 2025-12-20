@@ -1,7 +1,0 @@
-Trang Home - Chưa đăng nhập
-Verfy Chọn Rạp và lịch chiếu
-Tên phim: RỪNG SĂN NGƯỜI
-Tên rạp: CGV - Aeon Bình Tân
-Lịch chiếu: 21-09-2022 ~ 04:53
-Tên phim: RỪNG SĂN NGƯỜI | Tên rạp: CGV - Aeon Bình Tân | Lịch chiếu: 21/09/2022 -04:09
-Kết thúc testcase

@@ -1,3 +1,0 @@
-Trang Home - Nhấn đăng nhập
-Login with leading spaces in account
-Kết thúc testcase

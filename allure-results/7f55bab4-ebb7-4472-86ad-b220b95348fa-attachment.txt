@@ -1,6 +1,0 @@
-Trang Home - Chưa đăng nhập
-Tên phim: Nhà Bà Nữ
-Tên rạp: BHD Star Cineplex - 3/2
-Lịch chiếu: 25-05-2022 ~ 14:51
-Verify Nhấn đặt vé và đồng ý login
-Kết thúc testcase

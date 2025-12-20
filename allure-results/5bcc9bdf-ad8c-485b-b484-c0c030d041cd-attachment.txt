@@ -1,3 +1,0 @@
-Trang Home - Nhấn đăng nhập
-Verify Remember account enabled
-Kết thúc testcase
