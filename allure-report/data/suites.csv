@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","8048","Verify Logout Successfully","webkit","Sat Dec 20 13:05:05 ICT 2025","passed","Sat Dec 20 13:05:13 ICT 2025","Logout Test Future","logout.spec.ts","",""
-"","7600","Verify hủy Logout","webkit","Sat Dec 20 13:05:05 ICT 2025","passed","Sat Dec 20 13:05:13 ICT 2025","Logout Test Future","logout.spec.ts","",""
-"","22154","Verify Logout Successfully","firefox","Sat Dec 20 13:04:38 ICT 2025","passed","Sat Dec 20 13:05:00 ICT 2025","Logout Test Future","logout.spec.ts","",""
-"","26726","Verify hủy Logout","chromium","Sat Dec 20 13:04:38 ICT 2025","passed","Sat Dec 20 13:05:05 ICT 2025","Logout Test Future","logout.spec.ts","",""
-"","23002","Verify hủy Logout","firefox","Sat Dec 20 13:04:38 ICT 2025","passed","Sat Dec 20 13:05:01 ICT 2025","Logout Test Future","logout.spec.ts","",""
-"","25258","Verify Logout Successfully","chromium","Sat Dec 20 13:04:38 ICT 2025","passed","Sat Dec 20 13:05:03 ICT 2025","Logout Test Future","logout.spec.ts","",""
